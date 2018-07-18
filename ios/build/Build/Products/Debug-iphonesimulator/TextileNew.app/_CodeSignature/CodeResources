@@ -8,6 +8,18 @@
 		<data>
 		MsCe17lJEwR9VLpzYcPTzss3LxY=
 		</data>
+		<key>BentonSans Bold.otf</key>
+		<data>
+		uTHEzy2957MuR3hOobJ6/dgGxE8=
+		</data>
+		<key>BentonSans Light.otf</key>
+		<data>
+		LOJ/aK/7nBLCIhu0ecWW2vWXAUo=
+		</data>
+		<key>BentonSans.otf</key>
+		<data>
+		+YAMpGBmHEZOAnFPZUu1d0Zv+aQ=
+		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
 		8CN5cCzwKl0+7ieNPMN/SawZQA8=
@@ -51,7 +63,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bO0nTrwE7P1w3INgQYq4V34UxcA=
+		iBpaHOoCc3p1Rjl2VRC8huRF04Q=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -71,7 +83,7 @@
 		</data>
 		<key>PlugIns/TextileNewTests.xctest/TextileNewTests</key>
 		<data>
-		2zZYF5ZhWVaUUgR5WUoiabJh0Zc=
+		BijBVnyMz+p7ErPT2ehC9E8C4PU=
 		</data>
 		<key>PlugIns/TextileNewTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -89,6 +101,39 @@
 			<key>hash2</key>
 			<data>
 			j2Llo39nMib1mW9qUM/rvKHCYOzzdKSshoxj8rQEWok=
+			</data>
+		</dict>
+		<key>BentonSans Bold.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uTHEzy2957MuR3hOobJ6/dgGxE8=
+			</data>
+			<key>hash2</key>
+			<data>
+			FilUEfEZgXmAaZtm57aeMCebIRAqZG2QahFkCHR5cXA=
+			</data>
+		</dict>
+		<key>BentonSans Light.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LOJ/aK/7nBLCIhu0ecWW2vWXAUo=
+			</data>
+			<key>hash2</key>
+			<data>
+			OmL3M30FQVvYpX8WQpFqyqDL0gnaqlSQ8N2GJaTOOAY=
+			</data>
+		</dict>
+		<key>BentonSans.otf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+YAMpGBmHEZOAnFPZUu1d0Zv+aQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ncw74qow1UqHm6ijBCCLLPN49iLZRqbh3wk/pQAm7uU=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -229,11 +274,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2zZYF5ZhWVaUUgR5WUoiabJh0Zc=
+			BijBVnyMz+p7ErPT2ehC9E8C4PU=
 			</data>
 			<key>hash2</key>
 			<data>
-			kDdeVYfT7HKzuPygUelfT9GDpSn1gfawyG2wfAb4GMs=
+			BIsPOY33LYzQZilLD6EsZOzdk0RAPZpj08mpg9sivXs=
 			</data>
 		</dict>
 		<key>PlugIns/TextileNewTests.xctest/_CodeSignature/CodeResources</key>

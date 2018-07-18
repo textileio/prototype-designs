@@ -51,7 +51,7 @@ export default StyleSheet.create({
     borderRadius: 3
   },
   imageContainer: {
-    marginBottom: 24
+    marginBottom: 38
   },
   titleContainer: {
     marginBottom: 17

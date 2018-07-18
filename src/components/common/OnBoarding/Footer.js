@@ -35,8 +35,6 @@ Footer.propTypes = {
   previousTitle: PropTypes.string,
   nextTitle: PropTypes.string,
   onNext: PropTypes.func.isRequired,
-  onSubmit: PropTypes.func.isRequired,
-  pages: PropTypes.arrayOf(pagePropType).isRequired
 }
 
 Footer.defaultProps = {

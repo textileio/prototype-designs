@@ -2,12 +2,10 @@ import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
   textStyle: {
-    height: 50,
-    fontSize: 18
+    fontFamily: "BentonSans",
+    fontSize: 16,
   },
   inputWrapper: {
-    //minWidth: 245,
     width: '100%',
-    paddingHorizontal: 38
   }
 })

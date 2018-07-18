@@ -1,20 +1,13 @@
 import React, {Component, Fragment} from 'react'
-import PropTypes from 'prop-types'
 import {Text, Image, View} from 'react-native'
-import {find} from 'lodash'
 
-import TextStrong from '../TextStrong'
 import Footer from './Footer'
-import pagePropType from '../../../util/pagePropType'
 import styles from './styles'
 
 export default class OnBoarding extends Component {
-    static propTypes = {
-      pages: PropTypes.arrayOf(pagePropType).isRequired
-    };
-
     constructor (props) {
       super(props)
+
       this.state = {
         step: 0
       }

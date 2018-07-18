@@ -53,7 +53,6 @@ Button.propTypes = {
 
 Button.defaultProps = {
   icon: null,
-  buttonStyle: {},
   style: {},
   primary: false,
   danger: false
