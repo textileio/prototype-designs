@@ -9,7 +9,7 @@ export default StyleSheet.create({
     fontFamily: "BentonSans",
     fontSize: 12,
     color: "#6d6d6d",
-    marginBottom: 18,
+    marginBottom: 29,
     marginTop: 10,
     textAlign: 'right',
   },

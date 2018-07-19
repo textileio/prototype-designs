@@ -39,7 +39,7 @@ class SignIn extends Component {
                 secureTextEntry
                 onChangeText={(text) => this.setState(() => ({password: text}))}
               />
-              <Text style={styles.forgotText}>Forgot Password</Text>
+              <Text style={styles.forgotText}>Forgot password</Text>
               <Button
                 primary
                 title="Sign In"
