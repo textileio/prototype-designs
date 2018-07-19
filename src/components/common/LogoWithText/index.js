@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Image, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
+import SvgUri from 'react-native-svg-uri'
 
 import styles from './statics/styles'
 
@@ -9,7 +10,7 @@ const LogoWithText = props => {
 
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={require('./statics/logo.png')} />
+      <SvgUri width='131' height='40' source={require('./statics/logo.svg')} />
       <Text style={styles.tagline}>{text}</Text>
     </View>
   )

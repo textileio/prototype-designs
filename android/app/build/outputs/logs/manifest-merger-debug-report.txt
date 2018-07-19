@@ -65,6 +65,7 @@ ADDED from /Users/karen/Code/sans-bureau/TextileNew/android/app/src/main/Android
 		ADDED from /Users/karen/Code/sans-bureau/TextileNew/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from /Users/karen/Code/sans-bureau/TextileNew/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [TextileNew:react-native-svg:unspecified] /Users/karen/Code/sans-bureau/TextileNew/android/app/build/intermediates/exploded-aar/TextileNew/react-native-svg/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] /Users/karen/Code/sans-bureau/TextileNew/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/karen/Code/sans-bureau/TextileNew/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.0.1] /Users/karen/Code/sans-bureau/TextileNew/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
