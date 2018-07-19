@@ -20,12 +20,12 @@ export default StyleSheet.create({
   skipLink: {
     fontFamily: 'BentonSans',
     fontSize: 14,
-    color: '#000000',
+    color: '#000000'
   },
   nextLink: {
     fontFamily: 'BentonSans Bold',
     fontSize: 18,
-    color: '#2625FF',
+    color: '#2625FF'
   },
   subtitle: {
     fontFamily: 'BentonSans',

@@ -34,7 +34,7 @@ Footer.propTypes = {
   currentPageIndex: PropTypes.number.isRequired,
   previousTitle: PropTypes.string,
   nextTitle: PropTypes.string,
-  onNext: PropTypes.func.isRequired,
+  onNext: PropTypes.func.isRequired
 }
 
 Footer.defaultProps = {

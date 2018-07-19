@@ -5,13 +5,13 @@ import Footer from './Footer'
 import styles from './styles'
 
 export default class OnBoarding extends Component {
-    constructor (props) {
-      super(props)
+  constructor (props) {
+    super(props)
 
-      this.state = {
-        step: 0
-      }
+    this.state = {
+      step: 0
     }
+  }
 
     onNext = () => {
       this.setState({

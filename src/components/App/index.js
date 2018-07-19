@@ -15,7 +15,6 @@ const App = ({history}) => (
   </Switch>
 )
 
-
 App.propTypes = {
   history: PropTypes.shape({
     push: PropTypes.func.isRequired

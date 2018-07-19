@@ -3,23 +3,23 @@ import {StyleSheet} from 'react-native'
 export default StyleSheet.create({
   formContainer: {
     width: '100%',
-    paddingHorizontal: 36,
+    paddingHorizontal: 36
   },
   forgotText: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 12,
-    color: "#6d6d6d",
+    color: '#6d6d6d',
     marginBottom: 29,
     marginTop: 10,
-    textAlign: 'right',
+    textAlign: 'right'
   },
   footerText: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 13,
-    color: "#6d6d6d"
+    color: '#6d6d6d'
   },
   footerLink: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 13,
     textDecorationLine: 'underline'
   }

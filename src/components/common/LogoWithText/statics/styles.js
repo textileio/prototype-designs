@@ -12,7 +12,7 @@ export default StyleSheet.create({
     height: 40
   },
   tagline: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 16,
     lineHeight: 25,
     color: '#000',

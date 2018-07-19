@@ -23,7 +23,7 @@ export default {
   }),
   buttonText: StyleSheet.create({
     button: {
-      fontFamily: "BentonSans",
+      fontFamily: 'BentonSans',
       fontSize: 18,
       textAlign: 'center'
     },

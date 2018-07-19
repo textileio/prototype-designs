@@ -6,6 +6,9 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "lint": "esw src/**",
+    "lint-watch": "esw -w --changed src/**",
+    "lint-fix": "esw --fix",
     "test": "jest"
   },
   "jest": {
