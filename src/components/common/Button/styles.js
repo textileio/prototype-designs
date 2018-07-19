@@ -3,8 +3,9 @@ import {StyleSheet} from 'react-native'
 export default {
   button: StyleSheet.create({
     button: {
-      borderRadius: 4,
-      minWidth: 250
+      borderRadius: 6,
+      width: 300,
+      height: 50
     },
     buttonDefault: {
       backgroundColor: '#DCDCDC',
@@ -21,7 +22,11 @@ export default {
     }
   }),
   buttonText: StyleSheet.create({
-    button: {},
+    button: {
+      fontFamily: "BentonSans",
+      fontSize: 18,
+      textAlign: 'center'
+    },
     buttonDefault: {
       color: '#333333'
     },

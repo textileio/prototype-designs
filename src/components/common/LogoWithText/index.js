@@ -1,17 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Image, Text, View} from 'react-native'
+import { Image, Text, View } from 'react-native'
 
-const LogoWithText = ({text}) => (
-  <View style={{alignItems: 'center', paddingBottom: 10}}>
-    <View style={{paddingTop: 30}}>
-      <Image
-        source={require('../../../images/logo.png')}
-      />
+import styles from './statics/styles'
+
+const LogoWithText = props => {
+  const { text } = props
+
+  return (
+    <View style={styles.container}>
+      <Image style={styles.image} source={require('./statics/logo.png')} />
+      <Text style={styles.tagline}>{text}</Text>
     </View>
-    <Text>{text}</Text>
-  </View>
-)
+  )
+}
 
 LogoWithText.propTypes = {
   text: PropTypes.string.isRequired

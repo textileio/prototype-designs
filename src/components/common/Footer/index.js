@@ -4,11 +4,13 @@ import {View} from 'react-native'
 
 import styles from './styles'
 
-const Footer = ({children}) => (
-  <View style={styles.container}>
-    {children}
-  </View>
-)
+const Footer = props => {
+  return (
+    <View style={styles.container}>
+      {props.children}
+    </View>
+  )
+}
 
 Footer.propTypes = {
   children: PropTypes.oneOfType([

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {Text, View} from 'react-native'
 import {Link, withRouter} from 'react-router-native'
 
-import {Button, Footer, Input, LinkText, LogoWithText} from '../common'
+import { Button, Footer, Input, LinkText, LogoWithText } from '../common'
 import styles from './styles'
 import commonStyles from '../commonStyles'
 
@@ -22,6 +22,7 @@ class SignIn extends Component {
     render () {
       const {history} = this.props
       const {username, password} = this.state
+
       return (
         <Fragment>
           <View style={commonStyles.container}>

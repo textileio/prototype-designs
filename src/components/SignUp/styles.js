@@ -2,20 +2,37 @@ import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
   formContainer: {
-    //flex: 1,
-    backgroundColor: 'red',
-    //width: '80%',
-    marginHorizontal: 16
+    width: '100%',
+    paddingHorizontal: 36,
   },
-  signUpContainer: {
-    //marginLeft: 25,
-    //marginRight: 24
-  },
-  conditionsContainer: {
+  bottomLine: {
+    marginTop: 32,
     alignItems: 'center',
-    //margin: 15
+  },
+  bottomLineText: {
+    fontFamily: "BentonSans",
+    fontSize: 10,
+    lineHeight: 24,
+    color: "#000000"
+  },
+  bottomLineLink: {
+    fontFamily: "BentonSans",
+    fontSize: 10,
+    lineHeight: 24,
+    color: "#000000",
+    marginBottom: 16
   },
   linkColor: {
     color: '#2625ff'
+  },
+  footerText: {
+    fontFamily: "BentonSans",
+    fontSize: 13,
+    color: "#6d6d6d"
+  },
+  footerLink: {
+    fontFamily: "BentonSans",
+    fontSize: 13,
+    textDecorationLine: 'underline'
   }
 })

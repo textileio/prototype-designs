@@ -30,7 +30,7 @@ class SignUp extends Component {
       return (
         <Fragment>
           <View style={commonStyles.container}>
-            <LogoWithText text="Sign up to start using the app with your friends."/>
+            <LogoWithText text='Sign up to start using the app with your friends.' />
             <View style={styles.formContainer}>
               <Input
                 value={name}
@@ -57,22 +57,21 @@ class SignUp extends Component {
                 secureTextEntry
                 onChangeText={(text) => this.setState(() => ({password: text}))}
               />
+              <View style={styles.bottomLine}>
+                <Text style={styles.bottomLineLink}>By signing up you agree to our <LinkText>Terms and Conditions</LinkText></Text>
+              </View>
+              <Button
+                primary
+                title="Create account"
+                disabled={!name || !email || !username || !password}
+                onPress={() => history.push('/signIn')}
+              />
             </View>
-            <View style={styles.conditionsContainer}>
-              <Text style={{fontSize: 12}}>By signing up you agree to our</Text>
-              <LinkText style={{fontSize: 12}}>Terms and Conditions</LinkText>
-            </View>
-            <Button
-              primary
-              title="Create account"
-              disabled={!name || !email || !username || !password}
-              onPress={() => history.push('/signIn')}
-            />
           </View>
           <Footer>
-            <Text style={{fontSize: 12}}>Already have an account?</Text>
+            <Text style={styles.footerText}>Already have an account? </Text>
             <Link to={{pathname: '/signIn'}}>
-              <LinkText style={{fontSize: 12}}>Sign In</LinkText>
+              <LinkText style={[styles.footerLink, styles.linkColor]}>Sign In</LinkText>
             </Link>
           </Footer>
         </Fragment>
