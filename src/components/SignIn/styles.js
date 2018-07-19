@@ -1,7 +1,26 @@
 import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
-  signInButtonContainer: {
-    margin: 40
+  formContainer: {
+    width: '100%',
+    paddingHorizontal: 36,
+  },
+  forgotText: {
+    fontFamily: "BentonSans",
+    fontSize: 12,
+    color: "#6d6d6d",
+    marginBottom: 18,
+    marginTop: 10,
+    textAlign: 'right',
+  },
+  footerText: {
+    fontFamily: "BentonSans",
+    fontSize: 13,
+    color: "#6d6d6d"
+  },
+  footerLink: {
+    fontFamily: "BentonSans",
+    fontSize: 13,
+    textDecorationLine: 'underline'
   }
 })

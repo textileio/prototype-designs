@@ -27,18 +27,19 @@ class SignIn extends Component {
         <Fragment>
           <View style={commonStyles.container}>
             <LogoWithText text="Please Login In to continue"/>
-            <Input
-              value={username}
-              label="Username"
-              onChangeText={(text) => this.setState(() => ({username: text}))}
-            />
-            <Input
-              value={password}
-              label="Password"
-              secureTextEntry
-              onChangeText={(text) => this.setState(() => ({password: text}))}
-            />
-            <View style={styles.signInButtonContainer}>
+            <View style={styles.formContainer}>
+              <Input
+                value={username}
+                label="Username"
+                onChangeText={(text) => this.setState(() => ({username: text}))}
+              />
+              <Input
+                value={password}
+                label="Password"
+                secureTextEntry
+                onChangeText={(text) => this.setState(() => ({password: text}))}
+              />
+              <Text style={styles.forgotText}>Forgot Password</Text>
               <Button
                 primary
                 title="Sign In"
@@ -48,9 +49,9 @@ class SignIn extends Component {
             </View>
           </View>
           <Footer>
-            <Text style={{fontSize: 12}}>Don't have an account?</Text>
+            <Text style={styles.footerText}>Don't have an account? </Text>
             <Link to={{pathname: '/signUp'}}>
-              <LinkText style={{fontSize: 12}}>Sign Up</LinkText>
+              <LinkText style={[styles.footerLink, styles.linkColor]}>Sign Up</LinkText>
             </Link>
           </Footer>
         </Fragment>
