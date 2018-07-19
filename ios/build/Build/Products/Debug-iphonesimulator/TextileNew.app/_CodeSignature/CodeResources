@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		MsCe17lJEwR9VLpzYcPTzss3LxY=
+		zMVPWyCAIvF4K3MiR2ku38899jE=
 		</data>
 		<key>BentonSans Bold.otf</key>
 		<data>
@@ -20,47 +20,6 @@
 		<data>
 		+YAMpGBmHEZOAnFPZUu1d0Zv+aQ=
 		</data>
-		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
-		<data>
-		8CN5cCzwKl0+7ieNPMN/SawZQA8=
-		</data>
-		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
-		<data>
-		Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
-		</data>
-		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
-		<data>
-		UU+vWjYvpE8lKAxV1lE2tUbIZA0=
-		</data>
-		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
-		<data>
-		znuKt4UiTOJWwzrlgwaYX94o/a4=
-		</data>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<data>
-		uPxPInP5h9+ERgCm8NCXpuuMEmg=
-		</data>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<data>
-		aHoR6mqqp0XWLqiw49+MRuFNQLk=
-		</data>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<data>
-		2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
-		</data>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<data>
-		DmGu9k7yBOLSfwtyNbn3zYir630=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		iBpaHOoCc3p1Rjl2VRC8huRF04Q=
@@ -69,26 +28,6 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>PlugIns/TextileNewTests.xctest.dSYM/Contents/Info.plist</key>
-		<data>
-		mLnp9DFFIL1jXT9ClgG8+ptuPE8=
-		</data>
-		<key>PlugIns/TextileNewTests.xctest.dSYM/Contents/Resources/DWARF/TextileNewTests</key>
-		<data>
-		34kDrF26i2Sm+fG3WWIPVRAypAQ=
-		</data>
-		<key>PlugIns/TextileNewTests.xctest/Info.plist</key>
-		<data>
-		FdAPUQ6HHhe8t/OZXlrpiyOOoa0=
-		</data>
-		<key>PlugIns/TextileNewTests.xctest/TextileNewTests</key>
-		<data>
-		BijBVnyMz+p7ErPT2ehC9E8C4PU=
-		</data>
-		<key>PlugIns/TextileNewTests.xctest/_CodeSignature/CodeResources</key>
-		<data>
-		PvqX270BfjHBILV9RFgyLv0Tla8=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -96,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MsCe17lJEwR9VLpzYcPTzss3LxY=
+			zMVPWyCAIvF4K3MiR2ku38899jE=
 			</data>
 			<key>hash2</key>
 			<data>
-			j2Llo39nMib1mW9qUM/rvKHCYOzzdKSshoxj8rQEWok=
+			6A6WO+ivqRbdw6OYCCUYa77Vi+kOQysFcgnANu8YaHI=
 			</data>
 		</dict>
 		<key>BentonSans Bold.otf</key>
@@ -134,162 +73,6 @@
 			<key>hash2</key>
 			<data>
 			Ncw74qow1UqHm6ijBCCLLPN49iLZRqbh3wk/pQAm7uU=
-			</data>
-		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8CN5cCzwKl0+7ieNPMN/SawZQA8=
-			</data>
-			<key>hash2</key>
-			<data>
-			/R1Uy1RZ7ljX2V8ZHMhD4g8ieWHns9sj34YDK2McvfY=
-			</data>
-		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
-			</data>
-			<key>hash2</key>
-			<data>
-			IvG0kD54lYvEZzfjVmXtrtBdydTUy1uFZkZXUddfTzY=
-			</data>
-		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UU+vWjYvpE8lKAxV1lE2tUbIZA0=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ja3vToXIdN/BmsoAh4U4btDVl5lKbzndKf99CyxV6K4=
-			</data>
-		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			znuKt4UiTOJWwzrlgwaYX94o/a4=
-			</data>
-			<key>hash2</key>
-			<data>
-			napzzKlhgK6Qoqz8QO+9TkyuIsW5V+s6GmClALe2lT4=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uPxPInP5h9+ERgCm8NCXpuuMEmg=
-			</data>
-			<key>hash2</key>
-			<data>
-			N77/gSJpnPT4ryPaR4IJ55aYyiiMCKjlq79qrCmGxU8=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			aHoR6mqqp0XWLqiw49+MRuFNQLk=
-			</data>
-			<key>hash2</key>
-			<data>
-			unqlGEn5cq6B36PWWq/mAoeeub7L9yZ3vWK7mP9EscQ=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
-			</data>
-			<key>hash2</key>
-			<data>
-			OXS9XX1oATlfFoPHZbc7OGt7HUXfXzNrCz28TkkBo/g=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>hash2</key>
-			<data>
-			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DmGu9k7yBOLSfwtyNbn3zYir630=
-			</data>
-			<key>hash2</key>
-			<data>
-			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
-			</data>
-		</dict>
-		<key>PlugIns/TextileNewTests.xctest.dSYM/Contents/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mLnp9DFFIL1jXT9ClgG8+ptuPE8=
-			</data>
-			<key>hash2</key>
-			<data>
-			4OPmks4hqaDfcitWuuy90ihzAqzIEp9SdImAZ1Tz+84=
-			</data>
-		</dict>
-		<key>PlugIns/TextileNewTests.xctest.dSYM/Contents/Resources/DWARF/TextileNewTests</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			34kDrF26i2Sm+fG3WWIPVRAypAQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			2sZvBpCxVtu8ebAQLjPU9O01n3q/3pdtsL7WY9mh0V0=
-			</data>
-		</dict>
-		<key>PlugIns/TextileNewTests.xctest/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FdAPUQ6HHhe8t/OZXlrpiyOOoa0=
-			</data>
-			<key>hash2</key>
-			<data>
-			b8TH3xNjLQz0T9fIq6yQuv7alJ9MDngj3ZdgoxXVlqo=
-			</data>
-		</dict>
-		<key>PlugIns/TextileNewTests.xctest/TextileNewTests</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BijBVnyMz+p7ErPT2ehC9E8C4PU=
-			</data>
-			<key>hash2</key>
-			<data>
-			BIsPOY33LYzQZilLD6EsZOzdk0RAPZpj08mpg9sivXs=
-			</data>
-		</dict>
-		<key>PlugIns/TextileNewTests.xctest/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PvqX270BfjHBILV9RFgyLv0Tla8=
-			</data>
-			<key>hash2</key>
-			<data>
-			gse/VATf5GlH1JNZHbBOPHT19crLMY3lw6o9uJGAm/0=
 			</data>
 		</dict>
 	</dict>
