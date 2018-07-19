@@ -6,11 +6,11 @@ import pagePropType from '../../../util/pagePropType'
 import styles from './styles'
 
 const Footer = props => {
-  const {skipTitle, nextTitle, onPrevious, onNext, currentPageIndex, onSubmit, pages} = props
+  const {skipTitle, nextTitle, onNext, currentPageIndex, onSubmit, pages} = props
 
   return (
     <View style={styles.footerContainer}>
-      <Text style={styles.skipLink} onPress={() => onPrevious()}>{skipTitle}</Text>
+      <Text style={styles.skipLink} onPress={() => onSubmit()}>{skipTitle}</Text>
       <View style={styles.dotsContainer}>
         {pages.map((page, i) => (
           <View key={i} style={

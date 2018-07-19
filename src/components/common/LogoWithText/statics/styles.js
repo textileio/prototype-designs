@@ -8,7 +8,8 @@ export default StyleSheet.create({
   },
   image: {
     marginBottom: 22,
-    width: 132
+    width: 132,
+    height: 40
   },
   tagline: {
     fontFamily: "BentonSans",
