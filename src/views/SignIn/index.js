@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {Text, View} from 'react-native'
 import {Link, withRouter} from 'react-router-native'
 
-import { Button, Footer, Input, LinkText, LogoWithText } from '../../components/common/index'
+import { Button, Footer, Input, LinkText, LogoWithText } from '../../components/index'
 import styles from './styles'
 import commonStyles from '../commonStyles'
 

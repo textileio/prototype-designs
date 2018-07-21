@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {Button as Btn} from 'react-native-elements'
 
-import stylePropType from '../../../util/stylePropType'
+import stylePropType from '../../util/stylePropType'
 
 import styles from './styles'
 
