@@ -7,7 +7,7 @@ export default StyleSheet.create({
   },
   bottomLine: {
     marginTop: 32,
-    alignItems: 'center'
+    alignItems: 'center',
   },
   bottomLineText: {
     fontFamily: 'BentonSans',

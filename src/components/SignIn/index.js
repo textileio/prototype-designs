@@ -40,12 +40,14 @@ class SignIn extends Component {
                 onChangeText={(text) => this.setState(() => ({password: text}))}
               />
               <Text style={styles.forgotText}>Forgot password</Text>
-              <Button
-                primary
-                title="Sign In"
-                disabled={!username || !password}
-                onPress={() => history.push('/welcome')}
-              />
+              <View style={styles.bottomLine}>
+                <Button
+                  primary
+                  title="Sign In"
+                  disabled={!username || !password}
+                  onPress={() => history.push('/welcome')}
+                />
+              </View>
             </View>
           </View>
           <Footer>

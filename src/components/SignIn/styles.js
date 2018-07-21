@@ -13,6 +13,9 @@ export default StyleSheet.create({
     marginTop: 10,
     textAlign: 'right'
   },
+  bottomLine: {
+    alignItems: 'center',
+  },
   footerText: {
     fontFamily: 'BentonSans',
     fontSize: 13,
