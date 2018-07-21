@@ -7,14 +7,19 @@ import list from './constants'
 import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
 import Button from '../../components/Button'
-import ThreadCard from '../../components/ThreadCard'
+import ThreadCard from '../../components/ThreadListCard'
 
 const ThreadsList = () => {
   const empty = false // TODO: Change to see different states
 
   return (
     <View style={styles.container}>
-      <Toolbar />
+      <Toolbar
+        left={<Image style={styles.toolbarIcon} source={require('./statics/photo.png')} />}
+        center={<Image style={styles.toolbarLogo} source={require('./statics/logo.png')} />}
+        right={<Image style={styles.toolbarIcon} source={require('./statics/plus.png')} />}
+      />
+
       { empty && (
         <View style={styles.emptyStateContainer}>
           <Image style={styles.emptyStateImage} source={require('./statics/thread-empty-state.png')} />

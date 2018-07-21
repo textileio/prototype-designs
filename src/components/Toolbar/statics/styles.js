@@ -13,12 +13,4 @@ export default StyleSheet.create({
     justifyContent: 'space-between'
   },
   toolbarBottom: {},
-  toolbarLogo: {
-    width: 82.5,
-    height: 23,
-  },
-  toolbarIcon: {
-    width: 24,
-    height: 24,
-  }
 })

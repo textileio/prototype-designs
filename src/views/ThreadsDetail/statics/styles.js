@@ -6,14 +6,6 @@ export default StyleSheet.create({
     backgroundColor: '#FAFCFE',
     flex: 1,
   },
-  toolbarLogo: {
-    width: 82.5,
-    height: 23,
-  },
-  toolbarIcon: {
-    width: 24,
-    height: 24,
-  },
   contentContainer: {
     paddingTop: 25,
     paddingHorizontal: 15

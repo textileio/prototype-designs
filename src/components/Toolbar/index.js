@@ -4,14 +4,14 @@ import { View, Image } from 'react-native'
 import styles from './statics/styles'
 
 const Toolbar = props => {
-  const { children } = props
+  const { children, left, center, right } = props
 
   return (
     <View style={styles.toolBar}>
       <View style={styles.toolbarTop}>
-        <Image style={styles.toolbarIcon} source={require('./statics/photo.png')} />
-        <Image style={styles.toolbarLogo} source={require('./statics/logo.png')} />
-        <Image style={styles.toolbarIcon} source={require('./statics/plus.png')} />
+        {left}
+        {center}
+        {right}
       </View>
       <View style={styles.toolbarBottom}>
         {children}
