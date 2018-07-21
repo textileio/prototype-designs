@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Input from './Input'
 import LinkText from './LinkText'
 import LogoWithText from './LogoWithText'
-import OnBoarding from './OnBoarding'
+import OnBoarding from '../OnBoarding'
 
 export {Button}
 export {Footer}

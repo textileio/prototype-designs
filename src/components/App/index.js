@@ -2,18 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {Switch, Route, withRouter} from 'react-router-native'
 
-import {SignIn, SignUp, WelcomeMessage} from '..'
-import {OnBoarding} from '../common'
-import {pages} from '../../constants'
+import { SignIn, SignUp, WelcomeMessage, OnBoarding } from '../index'
 
-const App = ({history}) => (
-  <Switch>
-    <Route exact path="/signIn" render={() => <SignIn/>}/>
-    <Route exact path="/welcome" render={() => <WelcomeMessage/>}/>
-    <Route exact path="/signUp" render={() => <SignUp/>}/>
-    <Route render={() => <OnBoarding pages={pages} onSubmit={() => history.push('/signUp')}/>}/>
-  </Switch>
-)
+const App = props => {
+  const { history } = props
+  
+  return (
+    <Switch>
+      {/*<Route render={() => <SignIn/>}/>*/}
+      {/*<Route render={() => <WelcomeMessage/>}/>*/}
+      <Route render={() => <OnBoarding onSubmit={() => history.push('/signUp')}/>} />}/>
+      {/*<Route render={() => <SignUp/>}/>*/}
+    </Switch>
+  )
+}
 
 App.propTypes = {
   history: PropTypes.shape({

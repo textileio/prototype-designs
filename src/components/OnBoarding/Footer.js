@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {Text, View} from 'react-native'
 
-import pagePropType from '../../../util/pagePropType'
-import styles from './styles'
+import pagePropType from '../../util/pagePropType'
+import styles from './statics/styles'
 
 const Footer = props => {
   const {skipTitle, nextTitle, onNext, currentPageIndex, onSubmit, pages} = props
