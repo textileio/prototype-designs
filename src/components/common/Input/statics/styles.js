@@ -1,19 +1,10 @@
 import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
-  textStyle: {
-    fontFamily: 'BentonSans',
-    fontSize: 16,
-    color: '#6d6d6d'
-  },
-  inputWrapper: {
-    width: '100%',
-    //padding: 0
-  },
   labelText: {
     position: 'absolute',
     left: 0,
-    backgroundColor: 'rgba(0,0,0,0)'
+    backgroundColor: 'rgba(0,0,0,0)',
   },
   underlineWrapper: {
     height: 1,
@@ -23,7 +14,8 @@ export default StyleSheet.create({
     height: 72,
     paddingTop: 30,
     paddingBottom: 7,
-    position: 'relative'
+    position: 'relative',
+    width: '100%',
   },
   denseWrapper: {
     height: 60,
@@ -32,14 +24,10 @@ export default StyleSheet.create({
     position: 'relative'
   },
   textInput: {
+    fontFamily: 'BentonSans',
     fontSize: 16,
-    height: 34,
-    lineHeight: 34
-  },
-  denseTextInput: {
-    fontSize: 13,
-    height: 27,
-    lineHeight: 24,
-    paddingBottom: 3
+    marginBottom: 8,
+    marginTop: 10,
+    color: '#6d6d6d',
   }
 })
