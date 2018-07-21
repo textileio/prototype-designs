@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {Switch, Route, withRouter} from 'react-router-native'
 
-import { SignIn, SignUp, WelcomeMessage, OnBoarding } from '../index'
+import { SignIn, SignUp, WelcomeMessage, OnBoarding } from '../views/index'
 
 const App = props => {
   const { history } = props
-  
+
   return (
     <Switch>
       {/*<Route render={() => <SignIn/>}/>*/}

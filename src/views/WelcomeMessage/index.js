@@ -1,7 +1,7 @@
 import React from 'react'
 import {Text, View} from 'react-native'
 
-import {Button} from '../common'
+import {Button} from '../../components/common/index'
 
 const WelcomeMessage = () => (
   <View style={{paddingTop: 30, alignItems: 'center'}}>
