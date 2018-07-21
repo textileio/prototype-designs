@@ -6,8 +6,6 @@ export default StyleSheet.create({
     borderTopColor: '#ECEDEE',
     borderTopWidth: 1,
     backgroundColor: 'white',
-    position: 'absolute',
-    bottom: 0,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',

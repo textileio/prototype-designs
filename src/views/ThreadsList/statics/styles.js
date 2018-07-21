@@ -27,7 +27,9 @@ export default StyleSheet.create({
     paddingHorizontal: 52,
     marginBottom: 24
   },
-  threadCard: {},
+  threadCard: {
+    marginBottom: 37
+  },
   threadCardHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -65,5 +67,8 @@ export default StyleSheet.create({
     fontFamily: "BentonSans",
     fontSize: 12,
     lineHeight: 11,
+  },
+  threadCardBody: {
+
   }
 })
