@@ -1,7 +1,7 @@
 import React from 'react'
 import TextField from './TextField'
 
-import styles from './styles'
+import styles from './statics/styles'
 
 const Input = props => {
   return (

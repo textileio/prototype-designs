@@ -1,36 +1,11 @@
-'use strict'
 import React, {Component} from 'react'
-import {View, TextInput, StyleSheet} from 'react-native'
+import { View, TextInput } from 'react-native'
 import PropTypes from 'prop-types'
 
 import Underline from './Underline'
 import FloatingLabel from './FloatingLabel'
 
-const styles = StyleSheet.create({
-  wrapper: {
-    height: 72,
-    paddingTop: 30,
-    paddingBottom: 7,
-    position: 'relative'
-  },
-  denseWrapper: {
-    height: 60,
-    paddingTop: 28,
-    paddingBottom: 4,
-    position: 'relative'
-  },
-  textInput: {
-    fontSize: 16,
-    height: 34,
-    lineHeight: 34
-  },
-  denseTextInput: {
-    fontSize: 13,
-    height: 27,
-    lineHeight: 24,
-    paddingBottom: 3
-  }
-})
+import styles from './statics/styles'
 
 class TextField extends Component {
   static propTypes = {

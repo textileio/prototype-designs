@@ -1,15 +1,8 @@
-'use strict'
 import React, {Component} from 'react'
-import {StyleSheet, Animated} from 'react-native'
+import { Animated } from 'react-native'
 import PropTypes from 'prop-types'
 
-const styles = StyleSheet.create({
-  labelText: {
-    position: 'absolute',
-    left: 0,
-    backgroundColor: 'rgba(0,0,0,0)'
-  }
-})
+import styles from './statics/styles'
 
 class FloatingLabel extends Component {
   static propTypes = {

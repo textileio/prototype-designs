@@ -1,14 +1,8 @@
-'use strict'
 import React, {Component} from 'react'
-import {View, StyleSheet, Animated} from 'react-native'
+import { View, Animated } from 'react-native'
 import PropTypes from 'prop-types'
 
-const styles = StyleSheet.create({
-  underlineWrapper: {
-    height: 1,
-    alignItems: 'center'
-  }
-})
+import styles from './statics/styles'
 
 class Underline extends Component {
   static propTypes = {
