@@ -5,5 +5,22 @@ export default StyleSheet.create({
     marginTop: 20,
     backgroundColor: '#FAFCFE',
     flex: 1,
+  },
+  contentContainer: {
+    paddingTop: 75,
+    alignItems: 'center'
+  },
+  emptyStateImage: {
+    width: 159,
+    height: 146,
+    marginBottom: 16
+  },
+  emptyStateText: {
+    fontFamily: "BentonSans",
+    fontSize: 16,
+    lineHeight: 26,
+    textAlign: 'center',
+    paddingHorizontal: 52,
+    marginBottom: 24
   }
 })
