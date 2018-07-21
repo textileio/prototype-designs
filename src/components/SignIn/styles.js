@@ -14,7 +14,7 @@ export default StyleSheet.create({
     textAlign: 'right'
   },
   bottomLine: {
-    alignItems: 'center',
+    alignItems: 'center'
   },
   footerText: {
     fontFamily: 'BentonSans',

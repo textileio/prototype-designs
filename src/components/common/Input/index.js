@@ -1,5 +1,5 @@
 import React from 'react'
-import TextField from '@indec/react-native-md-textinput'
+import TextField from './TextField'
 
 import styles from './styles'
 

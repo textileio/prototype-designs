@@ -515,10 +515,6 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@indec/react-native-md-textinput@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@indec/react-native-md-textinput/-/react-native-md-textinput-3.1.1.tgz#6db6dc3b4533a49952e5446f68fc161c7cc6b060"
-
 abab@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
