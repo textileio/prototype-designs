@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { BentonSansBold } from '../../../util/fonts'
 
 export default StyleSheet.create({
   onBoardingContainer: {
@@ -23,7 +24,7 @@ export default StyleSheet.create({
     color: '#000000'
   },
   nextLink: {
-    fontFamily: 'BentonSans Bold',
+    ...BentonSansBold(),
     fontSize: 18,
     color: '#2625FF'
   },
@@ -57,7 +58,7 @@ export default StyleSheet.create({
     marginBottom: 17
   },
   title: {
-    fontFamily: 'BentonSans Bold',
+    ...BentonSansBold(),
     fontSize: 24,
     color: '#000000'
   }
