@@ -4,11 +4,14 @@ import { View, Text, Image, ScrollView } from 'react-native'
 import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
 import ThreadDetailCard from '../../components/ThreadDetailCard'
+import BottomDrawerList from '../../components/BottomDrawerList'
 
 import styles from './statics/styles'
 import list from './constants'
 
 const ThreadsEdit = () => {
+  const showDrawer = false // Should uncomment to display drawer
+
   return (
     <View style={styles.container}>
       <Toolbar
@@ -31,6 +34,7 @@ const ThreadsEdit = () => {
         { list.map((item, i) => <ThreadDetailCard key={i} last={i === list.length - 1} {...item} />) }
       </ScrollView>
       <BottomBar active='threads' />
+      { showDrawer && <BottomDrawerList /> }
     </View>
   )
 }
