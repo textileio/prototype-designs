@@ -1,38 +1,15 @@
 import React from 'react'
-import { View, Text, Image, ScrollView, ImageBackground } from 'react-native'
+import {View, Text, ScrollView, Dimensions} from 'react-native'
+import Image from 'react-native-scalable-image'
+
+const { width } = Dimensions.get('window')
 
 import Toolbar from '../../components/Toolbar'
 
 import styles from './statics/styles'
+import list from './constants'
 
 const ThreadAddPhoto = () => {
-  const list = [
-    require('./statics/photo1.png'),
-    require('./statics/photo2.png'),
-    require('./statics/photo4.png'),
-    require('./statics/photo1.png'),
-    require('./statics/photo4.png'),
-    require('./statics/photo2.png'),
-    require('./statics/photo2.png'),
-    require('./statics/photo1.png'),
-    require('./statics/photo2.png'),
-    require('./statics/photo3.png'),
-    require('./statics/photo1.png'),
-    require('./statics/photo3.png'),
-    require('./statics/photo4.png'),
-    require('./statics/photo2.png'),
-    require('./statics/photo1.png'),
-    require('./statics/photo4.png'),
-    require('./statics/photo1.png'),
-    require('./statics/photo2.png'),
-    require('./statics/photo3.png'),
-    require('./statics/photo4.png'),
-    require('./statics/photo1.png'),
-    require('./statics/photo2.png'),
-    require('./statics/photo3.png'),
-    require('./statics/photo4.png')
-  ]
-
   return (
     <View style={styles.container}>
       <Toolbar
@@ -40,9 +17,9 @@ const ThreadAddPhoto = () => {
       />
       <ScrollView style={styles.contentContainer}>
         <Text style={styles.title}>Select a photo</Text>
-        <View style={[styles.photoList, { maxHeight: 30 * list.length }]}>
+        <View style={[styles.photoList, { maxHeight: 20 * list.length }]}>
           { list.map((item, i) =>
-            <Image key={i} style={styles.photo} source={item} />
+            <Image key={i} width={(width - 25) / 4} style={[styles.photo]} source={item} />
           )}
         </View>
       </ScrollView>

@@ -1,5 +1,4 @@
-import { StyleSheet, Dimensions } from 'react-native'
-const { width } = Dimensions.get('window')
+import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
   container: {
@@ -24,10 +23,9 @@ export default StyleSheet.create({
     flexWrap: 'wrap'
   },
   photo: {
-    maxWidth: (width - 25) / 4,
-    maxHeight: 200,
     marginLeft: 5,
     marginBottom: 5,
-    backgroundColor: 'red'
+    resizeMode: 'contain',
+    backgroundColor: 'red',
   }
 })
