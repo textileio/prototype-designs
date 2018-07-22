@@ -97,10 +97,15 @@ export default StyleSheet.create({
     alignItems: 'center',
     paddingVertical: 11,
     borderBottomWidth: 1,
-    borderColor: '#ECEDEE'
+    borderColor: '#ECEDEE',
+    width: '100%',
   },
   contactName: {
     fontFamily: "BentonSans",
     fontSize: 14,
+  },
+  contactSelectRadio: {
+    position: 'absolute',
+    right: 0
   }
 })

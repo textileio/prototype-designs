@@ -3,6 +3,7 @@ import { View, Text, Image, ScrollView, TextInput } from 'react-native'
 
 import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
+import RadioButton from '../../components/RadioButton'
 
 import styles from './statics/styles'
 
@@ -48,17 +49,22 @@ const ThreadsEdit = () => {
             <View style={styles.contactItem}>
               <Image style={styles.selectedContact} source={require('./statics/icon-photo1.png')} />
               <Text style={styles.contactName}>John Malkovich</Text>
-              <View></View>
+              <View style={styles.contactSelectRadio}>
+                <RadioButton selected={true} />
+              </View>
             </View>
             <View style={styles.contactItem}>
               <Image style={styles.selectedContact} source={require('./statics/icon-photo1.png')} />
               <Text style={styles.contactName}>John Malkovich</Text>
-              <View></View>
-            </View>
+              <View style={styles.contactSelectRadio}>
+                <RadioButton selected={false} />
+              </View>            </View>
             <View style={styles.contactItem}>
               <Image style={styles.selectedContact} source={require('./statics/icon-photo1.png')} />
               <Text style={styles.contactName}>John Malkovich</Text>
-              <View></View>
+              <View style={styles.contactSelectRadio}>
+                <RadioButton selected={false} />
+              </View>
             </View>
           </View>
         </View>
