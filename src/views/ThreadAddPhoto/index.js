@@ -40,7 +40,7 @@ const ThreadAddPhoto = () => {
       />
       <ScrollView style={styles.contentContainer}>
         <Text style={styles.title}>Select a photo</Text>
-        <View style={[styles.photoList, { maxHeight: 40 * list.length }]}>
+        <View style={[styles.photoList, { maxHeight: 30 * list.length }]}>
           { list.map((item, i) =>
             <Image key={i} style={styles.photo} source={item} />
           )}
