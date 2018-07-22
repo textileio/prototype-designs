@@ -2,7 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {Switch, Route, withRouter} from 'react-router-native'
 
-import { SignIn, SignUp, WelcomeMessage, OnBoarding, ThreadsList, ThreadsDetail, ThreadsEditName, ThreadsEditFriends } from '../views'
+import {
+  SignIn,
+  SignUp,
+  WelcomeMessage,
+  OnBoarding,
+  ThreadsList,
+  ThreadsDetail,
+  ThreadsEditName,
+  ThreadsEditFriends,
+  UserProfile
+} from '../views'
 
 const App = props => {
   const { history } = props
@@ -14,7 +24,8 @@ const App = props => {
       {/*<Route render={() => <ThreadsList />}/>*/}
       {/*<Route render={() => <ThreadsDetail />}/>*/}
       {/*<Route render={() => <ThreadsEditName />}/>*/}
-      <Route render={() => <ThreadsEditFriends />}/>
+      {/*<Route render={() => <ThreadsEditFriends />}/>*/}
+      <Route render={() => <UserProfile />}/>
       {/*<Route render={() => <OnBoarding onSubmit={() => history.push('/signUp')}/>} />}/>*/}
       {/*<Route render={() => <SignUp/>}/>*/}
     </Switch>

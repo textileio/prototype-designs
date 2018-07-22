@@ -6,6 +6,7 @@ import ThreadsList from './ThreadsList'
 import ThreadsDetail from './ThreadsDetail'
 import ThreadsEditName from './ThreadsEditName'
 import ThreadsEditFriends from './ThreadsEditFriends'
+import UserProfile from './UserProfile'
 
 export { SignIn }
 export { SignUp }
@@ -15,3 +16,4 @@ export { ThreadsList }
 export { ThreadsDetail }
 export { ThreadsEditName }
 export { ThreadsEditFriends }
+export { UserProfile }
