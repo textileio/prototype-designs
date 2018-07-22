@@ -1,68 +1,37 @@
 export default [
   {
-    title: 'Summer',
-    userProfilePicture: require('./statics/photo.png'),
-    lastUpdatedTime: '2 hours ago',
-    commentsQty: '12',
-    usersQty: '40',
-    photos: [
-      {
-        image: require('./statics/photo1.png')
-      },
-      {
-        image: require('./statics/photo2.png')
-      }
-    ]
+    type: 'photo',
+    item: {
+      userName: 'Harold',
+      file: require('./statics/photo1.png'),
+      commentQty: 12
+    },
+    date: {
+      month: 'July',
+      day: '17'
+    }
+  }, {
+    type: 'contacts',
+    items: [
+      require('./statics/icon-photo1.png'),
+      require('./statics/icon-photo2.png'),
+      require('./statics/icon-photo3.png'),
+    ],
+    date: {
+      month: 'July',
+      day: '17'
+    }
   },
   {
-    title: 'Summer',
-    userProfilePicture: require('./statics/photo.png'),
-    lastUpdatedTime: '2 hours ago',
-    commentsQty: '12',
-    usersQty: '40',
-    photos: [
-      {
-        image: require('./statics/photo3.png')
-      },
-    ]
-  },
-  {
-    title: 'Summer',
-    userProfilePicture: require('./statics/photo.png'),
-    lastUpdatedTime: '2 hours ago',
-    commentsQty: '12',
-    usersQty: '40',
-    photos: [
-      {
-        image: require('./statics/photo4.png')
-      },
-      {
-        image: require('./statics/photo3.png')
-      },
-      {
-        image: require('./statics/photo1.png')
-      },
-    ]
-  },
-  {
-    title: 'Summer',
-    userProfilePicture: require('./statics/photo.png'),
-    lastUpdatedTime: '2 hours ago',
-    commentsQty: '12',
-    usersQty: '40',
-    photos: [
-      {
-        image: require('./statics/photo1.png')
-      },
-      {
-        image: require('./statics/photo3.png')
-      },
-      {
-        image: require('./statics/photo2.png')
-      },
-      {
-        image: require('./statics/photo4.png')
-      },
-    ]
-  },
+    type: 'photo',
+    item: {
+      userName: 'Jane',
+      file: require('./statics/photo2.png'),
+      commentQty: 12
+    },
+    date: {
+      month: 'August',
+      day: '21'
+    }
+  }
 ]
