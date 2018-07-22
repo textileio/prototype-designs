@@ -1,5 +1,6 @@
 import React from 'react'
 import { View, Text, Image, ScrollView } from 'react-native'
+import Dash from 'react-native-dash'
 
 import styles from './statics/styles'
 
@@ -33,7 +34,7 @@ const ThreadsEdit = () => {
               <Text style={styles.month}>JULY</Text>
               <Text style={styles.day}>17</Text>
             </View>
-            <View style={styles.carLeftLine} />
+            <Dash style={styles.carLeftLine} dashLength={4} dashGap={3} dashColor='#979797' />
           </View>
           <View style={styles.cardRight}>
             <Text style={styles.cardAction}><Text style={styles.cardActionName}>Harold</Text> added a photo</Text>
@@ -47,7 +48,7 @@ const ThreadsEdit = () => {
               <Text style={styles.month}>JULY</Text>
               <Text style={styles.day}>17</Text>
             </View>
-            <View style={styles.carLeftLine} />
+            <Dash style={styles.carLeftLine} dashLength={4} dashGap={3} dashColor='#979797' />
           </View>
           <View style={styles.cardRight}>
             <Text style={styles.cardAction}><Text style={styles.cardActionName}>You added</Text> 3 more contacts</Text>
@@ -64,7 +65,7 @@ const ThreadsEdit = () => {
               <Text style={styles.month}>JULY</Text>
               <Text style={styles.day}>17</Text>
             </View>
-            <View style={styles.carLeftLine} />
+            <Dash style={styles.carLeftLine} dashLength={4} dashGap={3} dashColor='#979797' />
           </View>
           <View style={styles.cardRight}>
             <Text style={styles.cardAction}><Text style={styles.cardActionName}>Harold</Text> added a photo</Text>

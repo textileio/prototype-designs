@@ -5004,6 +5004,13 @@ react-is@^16.3.1:
   version "16.4.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.1.tgz#d624c4650d2c65dbd52c72622bbf389435d9776e"
 
+react-native-dash@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-dash/-/react-native-dash-0.0.9.tgz#a07eb06a360530e42980e9cf90fd7f862705e2f2"
+  dependencies:
+    prop-types "^15.5.10"
+    react-native-measureme "0.0.1"
+
 react-native-elements@^0.19.1:
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/react-native-elements/-/react-native-elements-0.19.1.tgz#f92b69d864a150215d01f81fe3c52a9cada83e45"
@@ -5012,6 +5019,10 @@ react-native-elements@^0.19.1:
     lodash.times "^4.3.2"
     opencollective "^1.0.3"
     prop-types "^15.5.8"
+
+react-native-measureme@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-measureme/-/react-native-measureme-0.0.1.tgz#8b1c5595cdbb1cfdf85bff98fe36d33e98b6162c"
 
 react-native-svg-uri@^1.2.3:
   version "1.2.3"

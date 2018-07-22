@@ -49,6 +49,7 @@ export default StyleSheet.create({
   },
   cardLeft: {
     marginRight: 23,
+    alignItems: 'center',
   },
   dateContainer: {
     backgroundColor: '#FAFCFE',
@@ -59,14 +60,13 @@ export default StyleSheet.create({
     marginBottom: 8
   },
   carLeftLine: {
-    height: '100%',
     width: 1,
-    top: 20,
+    height: '100%',
     position: 'absolute',
-    left: '50%',
     zIndex: -10,
+    flexDirection:'column',
+    top: 20,
     paddingBottom: 25,
-    backgroundColor:'#979797'
   },
   cardRight: {
   },
