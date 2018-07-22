@@ -7,7 +7,7 @@ import ContactSelect from '../../components/ContactSelect'
 
 import styles from './statics/styles'
 
-const ThreadsEdit = () => {
+const ThreadAddPhoto = () => {
   return (
     <View style={styles.container}>
       <Toolbar
@@ -29,4 +29,4 @@ const ThreadsEdit = () => {
   )
 }
 
-export default ThreadsEdit
+export default ThreadAddPhoto
