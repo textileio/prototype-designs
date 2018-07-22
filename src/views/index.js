@@ -5,6 +5,7 @@ import WelcomeMessage from './WelcomeMessage/index'
 import ThreadsList from './ThreadsList'
 import ThreadsDetail from './ThreadsDetail'
 import ThreadsEditName from './ThreadsEditName'
+import ThreadsEditFriends from './ThreadsEditFriends'
 
 export { SignIn }
 export { SignUp }
@@ -13,3 +14,4 @@ export { WelcomeMessage }
 export { ThreadsList }
 export { ThreadsDetail }
 export { ThreadsEditName }
+export { ThreadsEditFriends }
