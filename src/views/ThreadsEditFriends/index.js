@@ -17,7 +17,7 @@ const ThreadsEdit = () => {
             <Text style={styles.link}>Save</Text>
           </View>
         } />
-      <ScrollView style={styles.contentContainer}>
+      <View style={styles.contentContainer}>
         <View style={styles.header}>
           <View style={styles.headerTitle}>
             <Text style={styles.title}>Add contacts</Text>
@@ -45,7 +45,7 @@ const ThreadsEdit = () => {
             <Image style={styles.searchBoxIcon} source={require('./statics/icon-search.png')} />
             <TextInput style={styles.searchBoxInput} placeholder='Search' />
           </View>
-          <View style={styles.contactList}>
+          <ScrollView style={styles.contactList}>
             <View style={styles.contactItem}>
               <Image style={styles.selectedContact} source={require('./statics/icon-photo1.png')} />
               <Text style={styles.contactName}>John Malkovich</Text>
@@ -66,10 +66,9 @@ const ThreadsEdit = () => {
                 <RadioButton selected={false} />
               </View>
             </View>
-          </View>
+          </ScrollView>
         </View>
-      </ScrollView>
-      <BottomBar active='threads' />
+      </View>
     </View>
   )
 }
