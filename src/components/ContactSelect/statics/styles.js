@@ -3,8 +3,11 @@ import { BentonSansBold } from '../../../util/fonts'
 
 export default StyleSheet.create({
   contentContainer: {
-    paddingTop: 18,
-    paddingHorizontal: 16
+    backgroundColor: 'white',
+    paddingHorizontal: 18,
+    paddingTop: 25,
+    borderTopColor: '#ECEDEE',
+    borderTopWidth: 1,
   },
   link: {
     ...BentonSansBold(),
