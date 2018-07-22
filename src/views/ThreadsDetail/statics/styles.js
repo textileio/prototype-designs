@@ -44,15 +44,32 @@ export default StyleSheet.create({
   },
   card: {
     flexDirection: 'row',
-    //justifyContent: 'space-between',
     paddingBottom: 25,
     marginBottom: 9
   },
   cardLeft: {
-    alignItems: 'center',
-    flexDirection: 'row',
+    marginRight: 23,
   },
-  cardRight: {},
+  dateContainer: {
+    backgroundColor: '#FAFCFE',
+    paddingBottom: 15
+  },
+  userPhotosContainer: {
+    flexDirection: 'row',
+    marginBottom: 8
+  },
+  carLeftLine: {
+    height: '100%',
+    width: 1,
+    top: 20,
+    position: 'absolute',
+    left: '50%',
+    zIndex: -10,
+    paddingBottom: 25,
+    backgroundColor:'#979797'
+  },
+  cardRight: {
+  },
   month: {
     fontFamily: "BentonSans",
     fontSize: 12,
