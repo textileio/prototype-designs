@@ -11,6 +11,7 @@ import {
   ThreadsDetail,
   ThreadsEditName,
   ThreadsEditFriends,
+  ThreadCreate,
   UserProfile
 } from '../views'
 
@@ -25,7 +26,8 @@ const App = props => {
       {/*<Route render={() => <ThreadsDetail />}/>*/}
       {/*<Route render={() => <ThreadsEditName />}/>*/}
       {/*<Route render={() => <ThreadsEditFriends />}/>*/}
-      <Route render={() => <UserProfile />}/>
+      <Route render={() => <ThreadCreate />}/>
+      {/*<Route render={() => <UserProfile />}/>*/}
       {/*<Route render={() => <OnBoarding onSubmit={() => history.push('/signUp')}/>} />}/>*/}
       {/*<Route render={() => <SignUp/>}/>*/}
     </Switch>
