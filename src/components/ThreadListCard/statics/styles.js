@@ -88,21 +88,6 @@ export default StyleSheet.create({
     color: "#9b9b9b",
     marginRight: 24
   },
-  detail: {
-    flexDirection: 'row',
-    alignItems: 'flex-end',
-    marginRight: 9,
-  },
-  detailImage: {
-    height: 12,
-    width: 12,
-    marginRight: 2
-  },
-  detailText: {
-    fontFamily: "BentonSans",
-    fontSize: 12,
-    lineHeight: 11,
-  },
   threadCardBody: {},
   moreImages: {
     width: '25%',

@@ -1,6 +1,8 @@
 import React from 'react'
 import { View, Image, Text } from 'react-native'
 
+import SmallIconTag from '../SmallIconTag'
+
 import styles, { cardImageContainerStyle, cardImageStyle } from './statics/styles'
 
 const ThreadCard = props => {
@@ -13,14 +15,14 @@ const ThreadCard = props => {
           <Text style={styles.threadCardTitle}>{title}</Text>
           <View style={styles.threadCardHeaderLeftDetail}>
             <Text style={styles.detailUpdateTime}>{lastUpdatedTime}</Text>
-            <View style={styles.detail}>
-              <Image style={styles.detailImage} source={require('./statics/icon-user.png')} />
-              <Text style={styles.detailText}>{usersQty}</Text>
-            </View>
-            <View style={styles.detail}>
-              <Image style={styles.detailImage} source={require('./statics/icon-comment.png')} />
-              <Text style={styles.detailText}>{commentsQty}</Text>
-            </View>
+            <SmallIconTag
+              text={usersQty}
+              image={require('./statics/icon-user.png')}
+            />
+            <SmallIconTag
+              text={commentsQty}
+              image={require('./statics/icon-comment.png')}
+            />
           </View>
         </View>
         <View style={styles.threadCardHeaderRight}>
