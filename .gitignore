@@ -7,8 +7,8 @@
 /node_modules
 
 # build
-/ios/build
-/android/build
+ios/build
+android/build
 
 # misc
 .env.local
