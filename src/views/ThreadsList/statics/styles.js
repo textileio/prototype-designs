@@ -4,15 +4,15 @@ export default StyleSheet.create({
   container: {
     marginTop: 20,
     backgroundColor: '#FAFCFE',
-    flex: 1,
+    flex: 1
   },
   toolbarLogo: {
     width: 82.5,
-    height: 23,
+    height: 23
   },
   toolbarIcon: {
     width: 24,
-    height: 24,
+    height: 24
   },
   contentContainer: {
     paddingTop: 25,
@@ -28,7 +28,7 @@ export default StyleSheet.create({
     marginBottom: 16
   },
   emptyStateText: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 16,
     lineHeight: 26,
     textAlign: 'center',

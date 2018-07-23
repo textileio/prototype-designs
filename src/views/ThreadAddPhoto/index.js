@@ -2,12 +2,12 @@ import React from 'react'
 import {View, Text, ScrollView, Dimensions} from 'react-native'
 import Image from 'react-native-scalable-image'
 
-const { width } = Dimensions.get('window')
-
 import Toolbar from '../../components/Toolbar'
 
 import styles from './statics/styles'
 import list from './constants'
+
+const { width } = Dimensions.get('window')
 
 const ThreadAddPhoto = () => {
   return (

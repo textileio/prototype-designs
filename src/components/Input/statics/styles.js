@@ -4,7 +4,7 @@ export default StyleSheet.create({
   labelText: {
     position: 'absolute',
     left: 0,
-    backgroundColor: 'rgba(0,0,0,0)',
+    backgroundColor: 'rgba(0,0,0,0)'
   },
   underlineWrapper: {
     height: 1,
@@ -15,7 +15,7 @@ export default StyleSheet.create({
     paddingTop: 30,
     paddingBottom: 7,
     position: 'relative',
-    width: '100%',
+    width: '100%'
   },
   denseWrapper: {
     height: 60,
@@ -28,6 +28,6 @@ export default StyleSheet.create({
     fontSize: 16,
     marginBottom: 8,
     marginTop: 10,
-    color: '#6d6d6d',
+    color: '#6d6d6d'
   }
 })

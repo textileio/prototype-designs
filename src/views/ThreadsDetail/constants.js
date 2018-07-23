@@ -15,7 +15,7 @@ export default [
     items: [
       require('./statics/icon-photo1.png'),
       require('./statics/icon-photo2.png'),
-      require('./statics/icon-photo3.png'),
+      require('./statics/icon-photo3.png')
     ],
     date: {
       month: 'July',

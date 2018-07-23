@@ -16,6 +16,6 @@ export default StyleSheet.create({
     position: 'absolute',
     backgroundColor: 'white',
     zIndex: 100,
-    width,
+    width
   }
 })

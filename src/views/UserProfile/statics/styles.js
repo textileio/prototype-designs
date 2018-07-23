@@ -5,7 +5,7 @@ export default StyleSheet.create({
   container: {
     marginTop: 20,
     backgroundColor: '#FAFCFE',
-    flex: 1,
+    flex: 1
   },
   contentContainer: {
     paddingTop: 16,
@@ -17,7 +17,7 @@ export default StyleSheet.create({
   },
   toolBarRight: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   toolbarBottom: {
     flexDirection: 'row',
@@ -32,21 +32,21 @@ export default StyleSheet.create({
     width: 59
   },
   toolbarUserName: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 24,
     marginBottom: 8
   },
   toolbarThreadsQty: {
-    fontFamily: "BentonSans",
-    fontSize: 13,
+    fontFamily: 'BentonSans',
+    fontSize: 13
   },
   strong: {
     ...BentonSansBold()
   },
   title: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 14,
-    color: "#9b9b9b",
+    color: '#9b9b9b',
     marginBottom: 17
   },
   itemContainer: {
@@ -60,7 +60,7 @@ export default StyleSheet.create({
     marginRight: 14
   },
   itemText: {
-    fontFamily: "BentonSans",
-    fontSize: 14,
+    fontFamily: 'BentonSans',
+    fontSize: 14
   }
 })

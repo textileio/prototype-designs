@@ -43,7 +43,7 @@ const ThreadDetailCard = props => {
             <Text style={styles.cardAction}><Text style={styles.cardActionName}>You added</Text> 3 more contacts</Text>
             <View style={styles.userPhotosContainer}>
               { props.items.map((item, i) => (
-                <Image  key={i} style={styles.toolbarUserIcon} source={item} />
+                <Image key={i} style={styles.toolbarUserIcon} source={item} />
               ))}
             </View>
           </View>
@@ -53,10 +53,8 @@ const ThreadDetailCard = props => {
 
     default: {
       return <View />
+    }
   }
-  }
-
-
 }
 
 export default ThreadDetailCard

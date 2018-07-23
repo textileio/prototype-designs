@@ -11,7 +11,7 @@ export const cardImageContainerStyle = list => {
       justifyContent: 'space-between',
       flexWrap: 'wrap',
       alignContent: 'stretch',
-      height: 170,
+      height: 170
     }
   }
 }
@@ -27,7 +27,7 @@ export const cardImageStyle = (list, index) => {
   if (list.length === 2) {
     return {
       width: '49.5%',
-      height: 170,
+      height: 170
     }
   }
 
@@ -69,7 +69,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'flex-start',
-    marginBottom: 11,
+    marginBottom: 11
   },
   threadCardHeaderLeft: {},
   threadCardHeaderRight: {},
@@ -78,14 +78,14 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
   threadCardTitle: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 30,
     marginBottom: 7
   },
   detailUpdateTime: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 12,
-    color: "#9b9b9b",
+    color: '#9b9b9b',
     marginRight: 24
   },
   threadCardBody: {},
@@ -101,7 +101,7 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
   moreImagesText: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 30,
     color: 'white'
   }

@@ -7,12 +7,12 @@ export default StyleSheet.create({
     paddingHorizontal: 18,
     paddingTop: 25,
     borderTopColor: '#ECEDEE',
-    borderTopWidth: 1,
+    borderTopWidth: 1
   },
   link: {
     ...BentonSansBold(),
     fontSize: 16,
-    color: "#2625ff"
+    color: '#2625ff'
   },
   header: {
     marginBottom: 21
@@ -24,17 +24,17 @@ export default StyleSheet.create({
     marginBottom: 18
   },
   title: {
-    fontFamily: "BentonSans",
-    fontSize: 24,
+    fontFamily: 'BentonSans',
+    fontSize: 24
   },
   small: {
     fontSize: 12,
     textDecorationLine: 'underline'
   },
   subtitle: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 14,
-    color: "#9b9b9b",
+    color: '#9b9b9b',
     marginBottom: 10
   },
   selectedContact: {
@@ -55,7 +55,7 @@ export default StyleSheet.create({
   },
   contactIcon: {
     height: 43,
-    width: 43,
+    width: 43
   },
   body: {},
   searchBoxContainer: {
@@ -73,9 +73,9 @@ export default StyleSheet.create({
     marginRight: 7
   },
   searchBoxInput: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 14,
-    color: "#8e8e93"
+    color: '#8e8e93'
   },
   contactList: {},
   contactItem: {
@@ -84,11 +84,11 @@ export default StyleSheet.create({
     paddingVertical: 11,
     borderBottomWidth: 1,
     borderColor: '#ECEDEE',
-    width: '100%',
+    width: '100%'
   },
   contactName: {
-    fontFamily: "BentonSans",
-    fontSize: 14,
+    fontFamily: 'BentonSans',
+    fontSize: 14
   },
   contactSelectRadio: {
     position: 'absolute',
