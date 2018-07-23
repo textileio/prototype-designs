@@ -2,8 +2,24 @@ import SignIn from './SignIn/index'
 import SignUp from './SignUp/index'
 import OnBoarding from './OnBoarding/index'
 import WelcomeMessage from './WelcomeMessage/index'
+import ThreadsList from './ThreadsList'
+import ThreadsDetail from './ThreadsDetail'
+import ThreadsEditName from './ThreadsEditName'
+import ThreadsEditFriends from './ThreadsEditFriends'
+import ThreadCreate from './ThreadCreate'
+import ThreadEdit from './ThreadEdit'
+import ThreadAddPhoto from './ThreadAddPhoto'
+import UserProfile from './UserProfile'
 
-export {SignIn}
-export {SignUp}
-export {OnBoarding}
-export {WelcomeMessage}
+export { SignIn }
+export { SignUp }
+export { OnBoarding }
+export { WelcomeMessage }
+export { ThreadsList }
+export { ThreadsDetail }
+export { ThreadsEditName }
+export { ThreadsEditFriends }
+export { ThreadCreate }
+export { ThreadEdit }
+export { ThreadAddPhoto }
+export { UserProfile }

@@ -6,6 +6,10 @@
 # dependencies
 /node_modules
 
+# build
+ios/build
+android/build
+
 # misc
 .env.local
 .env.development.local
