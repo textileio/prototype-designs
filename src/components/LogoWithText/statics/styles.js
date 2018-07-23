@@ -1,7 +1,5 @@
 import { StyleSheet, Platform } from 'react-native'
 
-
-
 export default StyleSheet.create({
   container: {
     marginBottom: 30,

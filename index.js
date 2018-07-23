@@ -4,7 +4,7 @@ import {AppRegistry} from 'react-native'
 import {NativeRouter} from 'react-router-native'
 import React, {Component} from 'react'
 
-import App from './src/components/App'
+import App from './src/app/router'
 
 /**
  * Root component for Android bundle.

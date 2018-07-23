@@ -2,7 +2,9 @@ import React, {Component, Fragment} from 'react'
 import {Text, Image, View} from 'react-native'
 
 import Footer from './Footer'
-import styles from './styles'
+import styles from './statics/styles'
+
+import { pages } from './constants'
 
 export default class OnBoarding extends Component {
   constructor (props) {
@@ -21,7 +23,7 @@ export default class OnBoarding extends Component {
 
     render () {
       const { step } = this.state
-      const { pages, onSubmit } = this.props
+      const { onSubmit } = this.props
 
       return (
         <Fragment>

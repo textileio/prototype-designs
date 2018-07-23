@@ -1,8 +1,8 @@
-import secure from '../images/secure.png'
-import share from '../images/share.png'
-import sync from '../images/sync.png'
+import secure from './statics/secure.png'
+import share from './statics/share.png'
+import sync from './statics/sync.png'
 
-const pages = [{
+export const pages = [{
   order: 0,
   title: 'Own your memories',
   subTitle: 'Your data is stored in a decentralized system to bring you full ownership of your photos',
@@ -18,9 +18,7 @@ const pages = [{
   order: 2,
   title: 'Backed up safely',
   subTitle: 'Everytime you take a picture, \n' +
-        'Textile will be there to automatically sync your photos.',
+  'Textile will be there to automatically sync your photos.',
   image: sync,
   dotColor: 'blue'
 }]
-
-export {pages}

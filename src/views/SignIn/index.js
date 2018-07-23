@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {Text, View} from 'react-native'
 import {Link, withRouter} from 'react-router-native'
 
-import { Button, Footer, Input, LinkText, LogoWithText } from '../common'
+import { Button, Footer, Input, LinkText, LogoWithText } from '../../components/index'
 import styles from './styles'
 import commonStyles from '../commonStyles'
 
@@ -40,12 +40,14 @@ class SignIn extends Component {
                 onChangeText={(text) => this.setState(() => ({password: text}))}
               />
               <Text style={styles.forgotText}>Forgot password</Text>
-              <Button
-                primary
-                title="Sign In"
-                disabled={!username || !password}
-                onPress={() => history.push('/welcome')}
-              />
+              <View style={styles.bottomLine}>
+                <Button
+                  primary
+                  title="Sign In"
+                  disabled={!username || !password}
+                  onPress={() => history.push('/welcome')}
+                />
+              </View>
             </View>
           </View>
           <Footer>

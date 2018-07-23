@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Text, View } from 'react-native'
 import { Link, withRouter } from 'react-router-native'
 
-import { Button, Footer, Input, LinkText, LogoWithText } from '../common'
+import { Button, Footer, Input, LinkText, LogoWithText } from '../../components/index'
 import commonStyles from '../commonStyles'
 import styles from './styles'
 
@@ -59,13 +59,13 @@ class SignUp extends Component {
               />
               <View style={styles.bottomLine}>
                 <Text style={styles.bottomLineLink}>By signing up you agree to our <LinkText>Terms and Conditions</LinkText></Text>
+                <Button
+                  primary
+                  title="Create account"
+                  disabled={!name || !email || !username || !password}
+                  onPress={() => history.push('/signIn')}
+                />
               </View>
-              <Button
-                primary
-                title="Create account"
-                disabled={!name || !email || !username || !password}
-                onPress={() => history.push('/signIn')}
-              />
             </View>
           </View>
           <Footer>
