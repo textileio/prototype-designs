@@ -31,7 +31,7 @@ const ThreadPhotoDetail = () => {
             <View style={styles.commentTexts}>
               <Text style={styles.commentUser}>Larry Little</Text>
               <Text style={styles.commentText}>Lorem ipsum dolor sit amet, consectetuer </Text>
-              <SmallIconTag style={{ color: "#4a4a4a" }} image={require('./statics/icon-comment.png')} text='Reply comment' />
+              <SmallIconTag textStyle={styles.commentIconLabel} image={require('./statics/icon-comment.png')} text='Reply comment' />
             </View>
             <Text style={styles.commentDate}>1hr ago</Text>
           </View>
@@ -40,13 +40,13 @@ const ThreadPhotoDetail = () => {
             <View style={styles.commentTexts}>
               <Text style={styles.commentUser}>Larry Little</Text>
               <Text style={styles.commentText}>Lorem ipsum dolor sit amet, consectetuer </Text>
-              <SmallIconTag style={{ color: "#4a4a4a" }} image={require('./statics/icon-comment.png')} text='Reply comment' />
+              <SmallIconTag textStyle={styles.commentIconLabel} image={require('./statics/icon-comment.png')} text='Reply comment' />
               <View style={[styles.comment, styles.subComment]}>
                 <Image style={styles.commentImage} source={require('./statics/icon-photo1.png')} />
                 <View style={styles.commentTexts}>
                   <Text style={styles.commentUser}>Larry Little</Text>
                   <Text style={styles.commentText}>Lorem ipsum dolor sit amet, consectetuer </Text>
-                  <SmallIconTag style={{ color: "#4a4a4a" }} image={require('./statics/icon-comment.png')} text='Reply comment' />
+                  <SmallIconTag textStyle={styles.commentIconLabel} image={require('./statics/icon-comment.png')} text='Reply comment' />
                 </View>
               </View>
             </View>
@@ -57,7 +57,7 @@ const ThreadPhotoDetail = () => {
             <View style={styles.commentTexts}>
               <Text style={styles.commentUser}>Larry Little</Text>
               <Text style={styles.commentText}>Lorem ipsum dolor sit amet, consectetuer </Text>
-              <SmallIconTag style={{ color: "#4a4a4a" }} image={require('./statics/icon-comment.png')} text='Reply comment' />
+              <SmallIconTag textStyle={styles.commentIconLabel} image={require('./statics/icon-comment.png')} text='Reply comment' />
             </View>
             <Text style={styles.commentDate}>1hr ago</Text>
           </View>

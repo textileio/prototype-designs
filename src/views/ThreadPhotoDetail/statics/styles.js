@@ -75,5 +75,9 @@ export default StyleSheet.create({
     lineHeight: 16,
     color: "#4a4a4a",
     marginBottom: 14
+  },
+  commentIconLabel: {
+    color: "#4a4a4a",
+    marginLeft: 6g
   }
 })
