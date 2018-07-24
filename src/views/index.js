@@ -9,6 +9,7 @@ import ThreadsEditFriends from './ThreadsEditFriends'
 import ThreadCreate from './ThreadCreate'
 import ThreadEdit from './ThreadEdit'
 import ThreadAddPhoto from './ThreadAddPhoto'
+import ThreadPhotoDetail from './ThreadPhotoDetail'
 import UserProfile from './UserProfile'
 
 export { SignIn }
@@ -22,4 +23,5 @@ export { ThreadsEditFriends }
 export { ThreadCreate }
 export { ThreadEdit }
 export { ThreadAddPhoto }
+export { ThreadPhotoDetail }
 export { UserProfile }

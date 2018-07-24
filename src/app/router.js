@@ -14,6 +14,7 @@ import {
   ThreadCreate,
   ThreadEdit,
   ThreadAddPhoto,
+  ThreadPhotoDetail,
   UserProfile
 } from '../views'
 
@@ -30,7 +31,8 @@ const App = props => {
       {/*<Route render={() => <ThreadsEditFriends />}/>*/}
       {/*<Route render={() => <ThreadCreate />}/>*/}
       {/*<Route render={() => <ThreadEdit />}/>*/}
-      <Route render={() => <ThreadAddPhoto />}/>
+      {/*<Route render={() => <ThreadAddPhoto />}/>*/}
+      <Route render={() => <ThreadPhotoDetail />}/>
       {/*<Route render={() => <UserProfile />}/>*/}
       {/*<Route render={() => <OnBoarding onSubmit={() => history.push('/signUp')}/>} />}/>*/}
       {/*<Route render={() => <SignUp/>}/>*/}
