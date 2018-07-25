@@ -8,7 +8,7 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   bottomBarIcon: {
     height: 24,
@@ -18,6 +18,6 @@ export default StyleSheet.create({
   },
   bottomBarIconActive: {
     borderBottomColor: '#2625FF',
-    borderBottomWidth: 2,
+    borderBottomWidth: 2
   }
 })

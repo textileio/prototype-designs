@@ -4,17 +4,17 @@ export default StyleSheet.create({
   container: {
     marginTop: 20,
     backgroundColor: '#FAFCFE',
-    flex: 1,
+    flex: 1
   },
   contentContainer: {
-    paddingTop: 20,
+    paddingTop: 20
   },
   toolbarLeft: {
     height: 16,
     width: 40
   },
   title: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 34,
     marginBottom: 17,
     paddingLeft: 14
@@ -26,6 +26,6 @@ export default StyleSheet.create({
     marginLeft: 5,
     marginBottom: 5,
     resizeMode: 'contain',
-    backgroundColor: 'red',
+    backgroundColor: 'red'
   }
 })

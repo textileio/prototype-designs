@@ -4,7 +4,7 @@ export default StyleSheet.create({
   container: {
     marginTop: 20,
     backgroundColor: '#FAFCFE',
-    flex: 1,
+    flex: 1
   },
   contentContainer: {
     paddingTop: 22,
@@ -29,7 +29,7 @@ export default StyleSheet.create({
     width: 16
   },
   toolbarTitle: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 30,
     marginBottom: 10
   },

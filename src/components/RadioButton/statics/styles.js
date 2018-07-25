@@ -8,7 +8,7 @@ export default StyleSheet.create({
     borderWidth: 2,
     borderColor: '#9B9B9B',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   buttonImage: {
     height: 8,
@@ -22,6 +22,6 @@ export default StyleSheet.create({
     borderRadius: 12,
     backgroundColor: '#2625FF',
     borderColor: '#2625FF',
-    borderWidth: 2,
+    borderWidth: 2
   }
 })

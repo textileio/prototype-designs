@@ -23,7 +23,7 @@ export default [
     photos: [
       {
         image: require('./statics/photo3.png')
-      },
+      }
     ]
   },
   {
@@ -41,7 +41,7 @@ export default [
       },
       {
         image: require('./statics/photo1.png')
-      },
+      }
     ]
   },
   {
@@ -62,7 +62,7 @@ export default [
       },
       {
         image: require('./statics/photo4.png')
-      },
+      }
     ]
-  },
+  }
 ]

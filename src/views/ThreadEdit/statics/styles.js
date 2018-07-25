@@ -5,7 +5,7 @@ export default StyleSheet.create({
   container: {
     marginTop: 20,
     backgroundColor: '#FAFCFE',
-    flex: 1,
+    flex: 1
   },
   contentContainer: {
     paddingTop: 19,
@@ -18,19 +18,19 @@ export default StyleSheet.create({
   },
   toolBarRight: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   link: {
     ...BentonSansBold(),
     fontSize: 16,
-    color: "#2625ff"
+    color: '#2625ff'
   },
   labelStyle: {
     color: '#9b9b9b',
     fontSize: 16
   },
   title: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 34,
     lineHeight: 34,
     marginBottom: 6

@@ -15,9 +15,9 @@ export default StyleSheet.create({
     borderBottomWidth: 1
   },
   title: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 14,
-    color: "#9b9b9b"
+    color: '#9b9b9b'
   },
   closeIcon: {
     paddingBottom: 16,
@@ -32,7 +32,7 @@ export default StyleSheet.create({
     borderBottomWidth: 1
   },
   itemText: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 16,
     paddingHorizontal: 14,
     paddingVertical: 16

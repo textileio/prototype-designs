@@ -58,7 +58,7 @@ const ContactSelect = () => {
           </View>
         </ScrollView>
       </View>
-      </View>
+    </View>
   )
 }
 
