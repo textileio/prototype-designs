@@ -14,6 +14,9 @@ export default StyleSheet.create({
     position: 'absolute',
     width: '100%'
   },
+  textInput: {
+    flexGrow: 1
+  },
   plus: {
     fontSize: 18
   }

@@ -8,7 +8,7 @@ const CommentBox = props => {
 
   return (
     <View style={[styles.commentFooter, { bottom: keyboardHeight }]}>
-      <TextInput placeholder='Write a comment...' placeholderTextColor='#4a4a4a' />
+      <TextInput style={styles.textInput} placeholder='Write a comment...' placeholderTextColor='#4a4a4a' />
       <Text style={styles.plus}>+</Text>
     </View>
   )
