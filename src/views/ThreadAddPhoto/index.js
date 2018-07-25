@@ -15,7 +15,7 @@ const ThreadAddPhoto = () => {
       />
       <ScrollView style={styles.contentContainer}>
         <Text style={styles.title}>Select a photo</Text>
-        <PhotoGrid photos={list} />
+        <PhotoGrid type='grid' photos={list} />
       </ScrollView>
     </View>
   )

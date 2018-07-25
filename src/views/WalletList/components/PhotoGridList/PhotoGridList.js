@@ -6,7 +6,7 @@ import PhotoGrid from '../../../../components/PhotoGrid'
 import styles from '../../statics/styles'
 
 const PhotoGridList = props => {
-  const { photos, active, onScroll, onLabelMounted, onElementMounted } = props
+  const { type, photos, active, onScroll, onLabelMounted, onElementMounted } = props
 
   return [
     <Text onLayout={e => onLabelMounted(e.nativeEvent.layout.y)} key='0' style={styles.fixedDate}>
@@ -21,7 +21,7 @@ const PhotoGridList = props => {
             </Text>
           )}
         </View>,
-        <PhotoGrid key={i} photos={item.photos} />
+        <PhotoGrid key={i} type={type} photos={item.photos} />
       ]) }
     </ScrollView>
   ]

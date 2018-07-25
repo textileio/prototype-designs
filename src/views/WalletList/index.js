@@ -9,6 +9,8 @@ import styles from './statics/styles'
 import list from './constants'
 
 const WalletList = () => {
+  const type = 'grid' // TODO: change this value to 'list' to display the other arrangement of photos
+
   return (
     <View style={styles.container}>
       <Toolbar
@@ -18,7 +20,7 @@ const WalletList = () => {
       >
         <Text style={styles.toolbarTitle}>Hello, Michael</Text>
       </Toolbar>
-      <PhotoGridList photos={list} />
+      <PhotoGridList type={type} photos={list} />
       <BottomBar active='wallet' />
     </View>
   )
