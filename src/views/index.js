@@ -17,6 +17,7 @@ import UserProfile from './UserProfile'
 import UserProfileInvite from './UserProfileInvite'
 import PhotoDetail from './PhotoDetail'
 import PhotoDetailInfo from './PhotoDetailInfo'
+import FeedList from './FeedList'
 
 export { SignIn }
 export { SignUp }
@@ -37,3 +38,4 @@ export { PhotoDetailInfo }
 export { OtherUserProfile }
 export { UserProfile }
 export { UserProfileInvite }
+export { FeedList }
