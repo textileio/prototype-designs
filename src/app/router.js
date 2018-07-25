@@ -20,7 +20,8 @@ import {
   PhotoDetail,
   PhotoDetailInfo,
   OtherUserProfile,
-  UserProfile
+  UserProfile,
+  UserProfileInvite
 } from '../views'
 
 const App = props => {
@@ -45,7 +46,8 @@ const App = props => {
       {/*<Route render={() => <PhotoDetail />}/>*/}
       {/*<Route render={() => <PhotoDetailInfo />}/>*/}
       {/*<Route render={() => <OtherUserProfile />}/>*/}
-      <Route render={() => <UserProfile />}/>
+      {/*<Route render={() => <UserProfile />}/>*/}
+      <Route render={() => <UserProfileInvite />}/>
     </Switch>
   )
 }

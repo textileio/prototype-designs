@@ -14,6 +14,7 @@ import WalletList from './WalletList'
 import WalletListSelected from './WalletListSelected'
 import OtherUserProfile from './OtherUserProfile'
 import UserProfile from './UserProfile'
+import UserProfileInvite from './UserProfileInvite'
 import PhotoDetail from './PhotoDetail'
 import PhotoDetailInfo from './PhotoDetailInfo'
 
@@ -35,3 +36,4 @@ export { PhotoDetail }
 export { PhotoDetailInfo }
 export { OtherUserProfile }
 export { UserProfile }
+export { UserProfileInvite }
