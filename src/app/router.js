@@ -19,6 +19,7 @@ import {
   WalletListSelected,
   PhotoDetail,
   PhotoDetailInfo,
+  OtherUserProfile,
   UserProfile
 } from '../views'
 
@@ -39,11 +40,12 @@ const App = props => {
       {/*<Route render={() => <ThreadEdit />}/>*/}
       {/*<Route render={() => <ThreadAddPhoto />}/>*/}
       {/*<Route render={() => <ThreadPhotoDetail />}/>*/}
-      <Route render={() => <WalletList />}/>
+      {/*<Route render={() => <WalletList />}/>*/}
       {/*<Route render={() => <WalletListSelected />}/>*/}
       {/*<Route render={() => <PhotoDetail />}/>*/}
       {/*<Route render={() => <PhotoDetailInfo />}/>*/}
-      {/*<Route render={() => <UserProfile />}/>*/}
+      {/*<Route render={() => <OtherUserProfile />}/>*/}
+      <Route render={() => <UserProfile />}/>
     </Switch>
   )
 }

@@ -12,6 +12,7 @@ import ThreadAddPhoto from './ThreadAddPhoto'
 import ThreadPhotoDetail from './ThreadPhotoDetail'
 import WalletList from './WalletList'
 import WalletListSelected from './WalletListSelected'
+import OtherUserProfile from './OtherUserProfile'
 import UserProfile from './UserProfile'
 import PhotoDetail from './PhotoDetail'
 import PhotoDetailInfo from './PhotoDetailInfo'
@@ -32,4 +33,5 @@ export { WalletList }
 export { WalletListSelected }
 export { PhotoDetail }
 export { PhotoDetailInfo }
+export { OtherUserProfile }
 export { UserProfile }
