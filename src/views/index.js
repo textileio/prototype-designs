@@ -10,6 +10,7 @@ import ThreadCreate from './ThreadCreate'
 import ThreadEdit from './ThreadEdit'
 import ThreadAddPhoto from './ThreadAddPhoto'
 import ThreadPhotoDetail from './ThreadPhotoDetail'
+import WalletList from './WalletList'
 import UserProfile from './UserProfile'
 
 export { SignIn }
@@ -25,3 +26,4 @@ export { ThreadEdit }
 export { ThreadAddPhoto }
 export { ThreadPhotoDetail }
 export { UserProfile }
+export { WalletList }
