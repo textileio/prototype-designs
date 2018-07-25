@@ -48,19 +48,5 @@ export default StyleSheet.create({
     fontSize: 14,
     color: "#9b9b9b",
     marginBottom: 17
-  },
-  itemContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 9
-  },
-  itemPhoto: {
-    height: 50,
-    width: 70,
-    marginRight: 14
-  },
-  itemText: {
-    fontFamily: "BentonSans",
-    fontSize: 14,
   }
 })

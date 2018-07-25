@@ -1,8 +1,8 @@
 import React from 'react'
-import { View, Text, ScrollView, Image } from 'react-native'
+import { View, Text, Image } from 'react-native'
 
 import Toolbar from '../../components/Toolbar'
-import BottomBar from '../../components/BottomBar'
+import BottomDrawerPhotos from '../../components/BottomDrawerPhotos'
 import PhotoGridList from './components/PhotoGridList/PhotoGridListContainer'
 
 import styles from './statics/styles'
@@ -10,6 +10,22 @@ import list from './constants'
 
 const WalletList = () => {
   const type = 'grid' // TODO: change this value to 'list' to display the other arrangement of photos
+  const drawer = true
+
+  const photoList = [
+    {
+      photo: require('./statics/photo1.png'),
+      text: 'Some tagline'
+    },
+    {
+      photo: require('./statics/photo1.png'),
+      text: 'Some tagline'
+    },
+    {
+      photo: require('./statics/photo1.png'),
+      text: 'Some tagline'
+    }
+  ]
 
   return (
     <View style={styles.container}>
@@ -28,6 +44,7 @@ const WalletList = () => {
         <Text style={styles.text}>1 photo selected</Text>
         <Text style={styles.link}>Deselect all</Text>
       </View>
+      { drawer && <BottomDrawerPhotos list={photoList} /> }
     </View>
   )
 }
