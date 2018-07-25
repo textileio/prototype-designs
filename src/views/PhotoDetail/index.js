@@ -5,6 +5,7 @@ import ImageSc from 'react-native-scalable-image'
 import Toolbar from '../../components/Toolbar'
 import BottomDrawerPhotos from '../../components/BottomDrawerPhotos'
 import PhotoWithTextBox from '../../components/PhotoWithTextBox'
+import PhotoBoxEmpty from '../../components/PhotoBoxEmpty'
 
 import styles from './statics/styles'
 import { photoList } from './constants'
@@ -43,6 +44,7 @@ const PhotoDetail = () => {
         <Text style={styles.threadsTitle}>This photo appears in the following threads:</Text>
         <PhotoWithTextBox text='San Francisco' photo={require('./statics/photo1.png')} />
         <PhotoWithTextBox text='San Francisco' photo={require('./statics/photo2.png')} />
+        <PhotoBoxEmpty style={{ marginBottom: 9, marginTop: 0 }} />
       </ScrollView>
       { drawer && <BottomDrawerPhotos list={photoList} /> }
     </View>
