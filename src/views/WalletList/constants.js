@@ -13,6 +13,7 @@ export default [
       },
       {
         photo: require('./statics/photo1.png'),
+        selected: true
       },
       {
         photo: require('./statics/photo1.png'),
@@ -175,5 +176,20 @@ export default [
       },
 
     ]
+  }
+]
+
+export const photoList = [
+  {
+    photo: require('./statics/photo1.png'),
+    text: 'Some tagline'
+  },
+  {
+    photo: require('./statics/photo1.png'),
+    text: 'Some tagline'
+  },
+  {
+    photo: require('./statics/photo1.png'),
+    text: 'Some tagline'
   }
 ]

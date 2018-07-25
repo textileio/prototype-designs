@@ -17,6 +17,7 @@ import {
   ThreadPhotoDetail,
   WalletList,
   WalletListSelected,
+  PhotoDetail,
   UserProfile
 } from '../views'
 
@@ -36,7 +37,8 @@ const App = props => {
       {/*<Route render={() => <ThreadAddPhoto />}/>*/}
       {/*<Route render={() => <ThreadPhotoDetail />}/>*/}
       {/*<Route render={() => <WalletList />}/>*/}
-      <Route render={() => <WalletListSelected />}/>
+      {/*<Route render={() => <WalletListSelected />}/>*/}
+      <Route render={() => <PhotoDetail />}/>
       {/*<Route render={() => <UserProfile />}/>*/}
       {/*<Route render={() => <OnBoarding onSubmit={() => history.push('/signUp')}/>} />}/>*/}
       {/*<Route render={() => <SignUp/>}/>*/}

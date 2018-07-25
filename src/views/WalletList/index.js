@@ -7,7 +7,7 @@ import BottomDrawerPhotos from '../../components/BottomDrawerPhotos'
 import PhotoGridList from './components/PhotoGridList/PhotoGridListContainer'
 
 import styles from './statics/styles'
-import list from './constants'
+import list, { photoList } from './constants'
 
 const WalletList = () => {
   const type = 'grid' // TODO: change this value to 'list' to display the other arrangement of photos

@@ -1,4 +1,5 @@
 import React from 'react'
+import propTypes from 'prop-types'
 import { View, Image, Text } from 'react-native'
 
 import styles from './statics/styles'
@@ -12,6 +13,11 @@ const PhotoWithTextBox = props => {
       <Text style={styles.itemText}>{text}</Text>
     </View>
   )
+}
+
+PhotoWithTextBox.propTypes = {
+  photo: propTypes.number.isRequired,
+  text: propTypes.string.isRequired
 }
 
 export default PhotoWithTextBox
