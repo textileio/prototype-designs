@@ -5,6 +5,7 @@ import ImageSc from 'react-native-scalable-image'
 const { width } = Dimensions.get('window')
 
 import Toolbar from '../../components/Toolbar'
+import BottomBar from '../../components/BottomBar'
 
 import styles from './statics/styles'
 import list from './constants'
@@ -27,6 +28,7 @@ const WalletList = () => {
           )}
         </View>
       </ScrollView>
+      <BottomBar active='threads' />
     </View>
   )
 }
