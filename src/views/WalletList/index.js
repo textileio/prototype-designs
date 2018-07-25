@@ -1,11 +1,9 @@
 import React from 'react'
-import { View, Text, ScrollView, Dimensions, Image } from 'react-native'
-import ImageSc from 'react-native-scalable-image'
-
-const { width } = Dimensions.get('window')
+import { View, Text, ScrollView, Image } from 'react-native'
 
 import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
+import PhotoGrid from '../../components/PhotoGrid'
 
 import styles from './statics/styles'
 import list from './constants'
@@ -22,13 +20,9 @@ const WalletList = () => {
       </Toolbar>
       <Text style={styles.fixedDate}><Text style={styles.bold}>Today</Text> 14 photos</Text>
       <ScrollView style={styles.contentContainer}>
-        <View style={[styles.photoList, { maxHeight: 20 * list.length }]}>
-          { list.map((item, i) =>
-            <ImageSc key={i} width={(width - 25) / 4} style={[styles.photo]} source={item} />
-          )}
-        </View>
+        <PhotoGrid photos={list} />
       </ScrollView>
-      <BottomBar active='threads' />
+      <BottomBar active='wallet' />
     </View>
   )
 }

@@ -32,15 +32,6 @@ export default StyleSheet.create({
     paddingBottom: 9,
     paddingTop: 20
   },
-  photoList: {
-    flexWrap: 'wrap'
-  },
-  photo: {
-    marginLeft: 5,
-    marginBottom: 5,
-    resizeMode: 'contain',
-    backgroundColor: 'red',
-  },
   bold: {
     ...BentonSansBold()
   }
