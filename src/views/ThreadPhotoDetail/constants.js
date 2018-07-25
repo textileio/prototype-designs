@@ -1,37 +1,28 @@
 export default [
   {
-    type: 'photo',
-    item: {
-      userName: 'Harold',
-      file: require('./statics/photo1.png'),
-      commentQty: 12
-    },
-    date: {
-      month: 'July',
-      day: '17'
-    }
-  }, {
-    type: 'contacts',
-    items: [
-      require('./statics/icon-photo1.png'),
-      require('./statics/icon-photo2.png'),
-      require('./statics/icon-photo3.png'),
-    ],
-    date: {
-      month: 'July',
-      day: '17'
-    }
+    userName: 'Larry Little',
+    comment: 'Lorem ipsum dolor sit amet, consectetuer ',
+    date: '1hr ago',
+    photo: require('./statics/icon-photo1.png')
   },
   {
-    type: 'photo',
-    item: {
-      userName: 'Jane',
-      file: require('./statics/photo2.png'),
-      commentQty: 12
-    },
-    date: {
-      month: 'August',
-      day: '21'
-    }
+    userName: 'Larry Little',
+    comment: 'Lorem ipsum dolor sit amet, consectetuer ',
+    date: '1hr ago',
+    photo: require('./statics/icon-photo2.png'),
+    subComments: [
+      {
+        userName: 'Larry Little',
+        comment: 'Lorem ipsum dolor sit amet, consectetuer ',
+        date: '1hr ago',
+        photo: require('./statics/icon-photo3.png')
+      }
+    ]
+  },
+  {
+    userName: 'Larry Little',
+    comment: 'Lorem ipsum dolor sit amet, consectetuer ',
+    date: '1hr ago',
+    photo: require('./statics/icon-photo3.png')
   }
 ]

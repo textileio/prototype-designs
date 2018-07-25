@@ -3,10 +3,12 @@ import { View, Text, ScrollView, Dimensions, Image } from 'react-native'
 import ImageSc from 'react-native-scalable-image'
 
 import Toolbar from '../../components/Toolbar'
-import SmallIconTag from '../../components/SmallIconTag'
 import BottomDrawerList from '../../components/BottomDrawerList'
+import CommentCard from '../../components/CommentCard'
 
 import styles from './statics/styles'
+import comments from './constants'
+
 const { width } = Dimensions.get('window')
 
 const ThreadPhotoDetail = () => {
@@ -26,41 +28,9 @@ const ThreadPhotoDetail = () => {
       <ScrollView style={styles.contentContainer}>
         <ImageSc style={styles.mainPhoto} width={width} source={require('./statics/photo2.png')} />
         <View style={styles.commentsContainer}>
-          <View style={[styles.comment, styles.withDivider]}>
-            <Image style={styles.commentImage} source={require('./statics/icon-photo1.png')} />
-            <View style={styles.commentTexts}>
-              <Text style={styles.commentUser}>Larry Little</Text>
-              <Text style={styles.commentText}>Lorem ipsum dolor sit amet, consectetuer </Text>
-              <SmallIconTag textStyle={styles.commentIconLabel} image={require('./statics/icon-comment.png')} text='Reply comment' />
-            </View>
-            <Text style={styles.commentDate}>1hr ago</Text>
-          </View>
-          <View style={[styles.comment, styles.withDivider]}>
-            <Image style={styles.commentImage} source={require('./statics/icon-photo1.png')} />
-            <View style={styles.commentTexts}>
-              <Text style={styles.commentUser}>Larry Little</Text>
-              <Text style={styles.commentText}>Lorem ipsum dolor sit amet, consectetuer </Text>
-              <SmallIconTag textStyle={styles.commentIconLabel} image={require('./statics/icon-comment.png')} text='Reply comment' />
-              <View style={[styles.comment, styles.subComment]}>
-                <Image style={styles.commentImage} source={require('./statics/icon-photo1.png')} />
-                <View style={styles.commentTexts}>
-                  <Text style={styles.commentUser}>Larry Little</Text>
-                  <Text style={styles.commentText}>Lorem ipsum dolor sit amet, consectetuer </Text>
-                  <SmallIconTag textStyle={styles.commentIconLabel} image={require('./statics/icon-comment.png')} text='Reply comment' />
-                </View>
-              </View>
-            </View>
-            <Text style={styles.commentDate}>1hr ago</Text>
-          </View>
-          <View style={[styles.comment, styles.withDivider]}>
-            <Image style={styles.commentImage} source={require('./statics/icon-photo1.png')} />
-            <View style={styles.commentTexts}>
-              <Text style={styles.commentUser}>Larry Little</Text>
-              <Text style={styles.commentText}>Lorem ipsum dolor sit amet, consectetuer </Text>
-              <SmallIconTag textStyle={styles.commentIconLabel} image={require('./statics/icon-comment.png')} text='Reply comment' />
-            </View>
-            <Text style={styles.commentDate}>1hr ago</Text>
-          </View>
+          { comments && comments.map((comment, i) => (
+            <CommentCard key={i} {...comment} />
+          ))}
         </View>
       </ScrollView>
       { showDrawer && <BottomDrawerList /> }
