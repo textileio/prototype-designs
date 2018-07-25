@@ -13,6 +13,7 @@ export default [
       },
       {
         photo: require('./statics/photo1.png'),
+        selected: true
       },
       {
         photo: require('./statics/photo1.png'),
