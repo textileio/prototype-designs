@@ -3,7 +3,7 @@ import { View, Text, ScrollView, Image } from 'react-native'
 
 import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
-import PhotoGrid from '../../components/PhotoGrid'
+import PhotoGridList from './components/PhotoGridList/PhotoGridListContainer'
 
 import styles from './statics/styles'
 import list from './constants'
@@ -18,10 +18,7 @@ const WalletList = () => {
       >
         <Text style={styles.toolbarTitle}>Hello, Michael</Text>
       </Toolbar>
-      <Text style={styles.fixedDate}><Text style={styles.bold}>Today</Text> 14 photos</Text>
-      <ScrollView style={styles.contentContainer}>
-        <PhotoGrid photos={list} />
-      </ScrollView>
+      <PhotoGridList photos={list} />
       <BottomBar active='wallet' />
     </View>
   )
