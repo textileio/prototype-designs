@@ -5,6 +5,7 @@ import ImageSc from 'react-native-scalable-image'
 import Toolbar from '../../components/Toolbar'
 import BottomDrawerList from '../../components/BottomDrawerList'
 import CommentCard from '../../components/CommentCard'
+import CommentBox from '../../components/CommentBox/CommentBoxContainer'
 
 import styles from './statics/styles'
 import comments from './constants'
@@ -33,6 +34,7 @@ const ThreadPhotoDetail = () => {
           ))}
         </View>
       </ScrollView>
+      <CommentBox />
       { showDrawer && <BottomDrawerList /> }
     </View>
   )
