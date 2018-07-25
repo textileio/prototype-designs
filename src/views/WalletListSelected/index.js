@@ -6,26 +6,11 @@ import BottomDrawerPhotos from '../../components/BottomDrawerPhotos'
 import PhotoGridList from './components/PhotoGridList/PhotoGridListContainer'
 
 import styles from './statics/styles'
-import list from './constants'
+import list, { photoList } from './constants'
 
-const WalletList = () => {
+const WalletListSelected = () => {
   const type = 'grid' // TODO: change this value to 'list' to display the other arrangement of photos
-  const drawer = true
-
-  const photoList = [
-    {
-      photo: require('./statics/photo1.png'),
-      text: 'Some tagline'
-    },
-    {
-      photo: require('./statics/photo1.png'),
-      text: 'Some tagline'
-    },
-    {
-      photo: require('./statics/photo1.png'),
-      text: 'Some tagline'
-    }
-  ]
+  const drawer = false
 
   return (
     <View style={styles.container}>
@@ -49,4 +34,4 @@ const WalletList = () => {
   )
 }
 
-export default WalletList
+export default WalletListSelected
