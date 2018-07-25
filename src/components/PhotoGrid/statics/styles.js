@@ -21,7 +21,22 @@ export default StyleSheet.create({
   photo: {
     marginLeft: 5,
     marginBottom: 5,
-    resizeMode: 'contain',
     backgroundColor: 'red',
   },
+  photoSelected: {
+    backgroundColor: '#2625FF',
+    opacity: 0.4,
+    zIndex: 100,
+    position: 'absolute',
+    width: '100%',
+    height: '100%'
+  },
+  photoSelectedIcon: {
+    height: 12,
+    width: 12,
+    position: 'absolute',
+    zIndex: 100,
+    right: 4,
+    top: 4
+  }
 })

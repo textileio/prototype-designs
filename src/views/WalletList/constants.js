@@ -2,70 +2,179 @@ export default [
   {
     month: 'June',
     photos: [
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo3.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo3.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+        selected: true
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
     ]
   },
   {
     month: 'April',
     photos: [
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo3.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo3.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+
+    ]
+  },
+  {
+    month: 'August',
+    photos: [
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },{
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+
     ]
   },
   {
     month: 'March',
     photos: [
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo3.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo3.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo2.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo4.png'),
-      require('./statics/photo1.png'),
-      require('./statics/photo2.png'),
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo2.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },{
+        photo: require('./statics/photo4.png')
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        photo: require('./statics/photo1.png'),
+      },
+
     ]
   }
 ]
