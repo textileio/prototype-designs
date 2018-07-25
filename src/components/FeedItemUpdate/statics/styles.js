@@ -8,8 +8,6 @@ export default StyleSheet.create({
     paddingRight: 9,
     paddingLeft: 16,
     paddingVertical: 17,
-    borderBottomWidth: 1,
-    borderColor: '#ECEDEE',
     backgroundColor: '#EDF1F5'
   },
   textContainer: {
