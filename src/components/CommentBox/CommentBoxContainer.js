@@ -13,8 +13,8 @@ class CommentBoxContainer extends React.Component {
   }
 
   componentDidMount () {
-    this.keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', this._keyboardDidShow);
-    this.keyboardDidHideListener = Keyboard.addListener('keyboardDidHide', this._keyboardDidHide);
+    this.keyboardDidShowListener = Keyboard.addListener('keyboardDidShow', this._keyboardDidShow)
+    this.keyboardDidHideListener = Keyboard.addListener('keyboardWillHide', this._keyboardDidHide)
   }
 
   _keyboardDidShow = e => {
@@ -23,21 +23,23 @@ class CommentBoxContainer extends React.Component {
     })
   }
 
-  _keyboardDidHide = e => {
+  _keyboardDidHide = () => {
     this.setState({
-      keyboardHeight: e.endCoordinates.height,
+      keyboardHeight: 0,
     })
   }
 
   componentWillUnmount () {
-    this.keyboardDidShowListener.remove();
-    this.keyboardDidHideListener.remove();
+    this.keyboardDidShowListener.remove()
+    this.keyboardDidHideListener.remove()
   }
 
 
   render () {
     return (
-      <CommentBox keyboardHeight={this.state.keyboardHeight} />
+      <CommentBox
+        keyboardHeight={this.state.keyboardHeight}
+      />
     )
   }
 }
