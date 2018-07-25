@@ -18,6 +18,7 @@ import {
   WalletList,
   WalletListSelected,
   PhotoDetail,
+  PhotoDetailInfo,
   UserProfile
 } from '../views'
 
@@ -40,7 +41,8 @@ const App = props => {
       {/*<Route render={() => <ThreadPhotoDetail />}/>*/}
       {/*<Route render={() => <WalletList />}/>*/}
       {/*<Route render={() => <WalletListSelected />}/>*/}
-      <Route render={() => <PhotoDetail />}/>
+      {/*<Route render={() => <PhotoDetail />}/>*/}
+      <Route render={() => <PhotoDetailInfo />}/>
       {/*<Route render={() => <UserProfile />}/>*/}
     </Switch>
   )
