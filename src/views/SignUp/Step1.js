@@ -41,10 +41,10 @@ const Step1 = props => {
         </View>
       </View>
       <Footer>
-        <Text style={styles.footerText}>Don't have an account? </Text>
-        <Link to={{ pathname: '/signUp' }}>
-          <Text style={[styles.footerLink, styles.link, styles.strong]}>Sign Up</Text>
-        </Link>
+        <Text style={styles.footerText}>Already have an account? </Text>
+        <Link to={{pathname: '/signIn'}}>
+          <Text style={[styles.footerLink, styles.link, styles.strong]}>Sign In</Text>
+        </Link>g
       </Footer>
     </Fragment>
   )

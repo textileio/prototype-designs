@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
-import {Text, View} from 'react-native'
-import { Link } from 'react-router-native'
+import { Text, View, TouchableOpacity } from 'react-native'
 
 import Input from '../../components/Input'
 import Footer from '../../components/Footer'
@@ -11,7 +10,7 @@ import commonStyles from '../commonStyles'
 import styles from './statics/styles'
 
 const Step1 = props => {
-  const { username, password, onChange, history } = props
+  const { username, password, onChange, onPreviousStep, history } = props
 
   return (
     <Fragment>
@@ -32,8 +31,9 @@ const Step1 = props => {
             onChangeText={value => onChange({ name: 'password', value })}
           />
           <View style={styles.bottomLine}>
+            <Text style={styles.bottomLineLink}>By signing up you agree to our <Text style={styles.link}>Terms and Conditions</Text></Text>
             <Button
-              text="Continue  "
+              text="Create account"
               disabled={!username || !password}
               onPress={() => history.push('/welcome')}
             />
@@ -41,10 +41,9 @@ const Step1 = props => {
         </View>
       </View>
       <Footer>
-        <Text style={styles.footerText}>Don't have an account? </Text>
-        <Link to={{pathname: '/signUp'}}>
-          <Text style={[styles.footerLink, styles.link, styles.strong]}>Sign Up</Text>
-        </Link>
+        <TouchableOpacity onPress={onPreviousStep}>
+          <Text style={[styles.footerLink, styles.link, styles.strong]}>Go back</Text>
+        </TouchableOpacity>
       </Footer>
     </Fragment>
   )
