@@ -12,6 +12,8 @@ import styles from './statics/styles'
 const Step1 = props => {
   const { username, password, onChange, onPreviousStep, history } = props
 
+  const hasError = false // TODO: toggle this to display error msg on input
+
   return (
     <Fragment>
       <ScrollView style={commonStyles.container}>
@@ -22,14 +24,19 @@ const Step1 = props => {
           <Input
             value={username}
             label="Username"
+            error={hasError}
+            errorMsg='This username is already taken'
             onChangeText={value => onChange({ name: 'username', value })}
           />
-          <Input
-            value={password}
-            label="Password"
-            secureTextEntry
-            onChangeText={value => onChange({ name: 'password', value })}
-          />
+          <View style={{ position: 'relative' }}>
+            <Input
+              value={password}
+              label="Password"
+              secureTextEntry
+              onChangeText={value => onChange({ name: 'password', value })}
+            />
+            <Text style={{ position: 'absolute', right: 0, bottom: 20 }}>Strong</Text>
+          </View>
           <View style={styles.bottomLine}>
             <Text style={styles.bottomLineLink}>By signing up you agree to our <Text style={styles.link}>Terms and Conditions</Text></Text>
             <Button
