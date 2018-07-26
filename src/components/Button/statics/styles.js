@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 export default StyleSheet.create({
   button: {
     backgroundColor: '#2625FF',
-    minWidth: 268,
+    minWidth: 300,
     paddingVertical: 18,
     paddingHorizontal: 65,
     borderRadius: 6,

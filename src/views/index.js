@@ -1,7 +1,8 @@
-import SignIn from './SignIn/index'
-import SignUp from './SignUp/index'
-import OnBoarding from './OnBoarding/index'
-import WelcomeMessage from './WelcomeMessage/index'
+import SignIn from './SignIn'
+import SignUp from './SignUp'
+import ForgotPassword from './ForgotPassword/ForgotPasswordContainer'
+import OnBoarding from './OnBoarding'
+import WelcomeMessage from './WelcomeMessage'
 import ThreadsList from './ThreadsList'
 import ThreadsDetail from './ThreadsDetail'
 import ThreadsEditName from './ThreadsEditName'
@@ -21,6 +22,7 @@ import FeedList from './FeedList'
 
 export { SignIn }
 export { SignUp }
+export { ForgotPassword }
 export { OnBoarding }
 export { WelcomeMessage }
 export { ThreadsList }
