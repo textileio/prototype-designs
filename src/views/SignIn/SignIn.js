@@ -6,12 +6,14 @@ import Input from '../../components/Input'
 import Footer from '../../components/Footer'
 import Logo from '../../components/Logo'
 import Button from '../../components/Button'
+import Alert from '../../components/Alert'
 
 import commonStyles from '../commonStyles'
 import styles from './statics/styles'
 
 const SignIn = props => {
   const { username, password, onChange, history } = props
+  const displayAlert = false
 
   return (
     <Fragment>
@@ -41,6 +43,7 @@ const SignIn = props => {
           </View>
         </View>
       </ScrollView>
+        <Alert display={displayAlert} bottom msg='A link to reset your password has been sent to your email.' />
       <Footer>
         <Text style={styles.footerText}>Don't have an account? </Text>
         <Link to={{pathname: '/signUp'}}>
