@@ -3,9 +3,11 @@ import PropTypes from 'prop-types'
 import { Text, View } from 'react-native'
 import { Link, withRouter } from 'react-router-native'
 
-import { Button, Footer, Input, LinkText, LogoWithText } from '../../components/index'
+import { Footer, Input, LogoWithText } from '../../components/index'
+import Button from '../../components/Button'
+
 import commonStyles from '../commonStyles'
-import styles from './styles'
+import styles from './statics/styles'
 
 class SignUp extends Component {
     static propTypes = {
@@ -58,10 +60,9 @@ class SignUp extends Component {
                 onChangeText={(text) => this.setState(() => ({password: text}))}
               />
               <View style={styles.bottomLine}>
-                <Text style={styles.bottomLineLink}>By signing up you agree to our <LinkText>Terms and Conditions</LinkText></Text>
+                <Text style={styles.bottomLineLink}>By signing up you agree to our <Text style={styles.link}>Terms and Conditions</Text></Text>
                 <Button
-                  primary
-                  title="Create account"
+                  text="Create account"
                   disabled={!name || !email || !username || !password}
                   onPress={() => history.push('/signIn')}
                 />
@@ -71,7 +72,7 @@ class SignUp extends Component {
           <Footer>
             <Text style={styles.footerText}>Already have an account? </Text>
             <Link to={{pathname: '/signIn'}}>
-              <LinkText style={[styles.footerLink, styles.linkColor]}>Sign In</LinkText>
+              <Text style={[styles.footerLink, styles.link, styles.strong]}>Sign In</Text>
             </Link>
           </Footer>
         </Fragment>

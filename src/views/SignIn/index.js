@@ -3,8 +3,10 @@ import PropTypes from 'prop-types'
 import {Text, View} from 'react-native'
 import {Link, withRouter} from 'react-router-native'
 
-import { Button, Footer, Input, LinkText, LogoWithText } from '../../components/index'
-import styles from './styles'
+import { Footer, Input, LogoWithText } from '../../components/index'
+import Button from '../../components/Button'
+
+import styles from './statics/styles'
 import commonStyles from '../commonStyles'
 
 class SignIn extends Component {
@@ -42,8 +44,7 @@ class SignIn extends Component {
               <Text style={styles.forgotText}>Forgot password</Text>
               <View style={styles.bottomLine}>
                 <Button
-                  primary
-                  title="Sign In"
+                  text="Sign in"
                   disabled={!username || !password}
                   onPress={() => history.push('/welcome')}
                 />
@@ -53,7 +54,7 @@ class SignIn extends Component {
           <Footer>
             <Text style={styles.footerText}>Don't have an account? </Text>
             <Link to={{pathname: '/signUp'}}>
-              <LinkText style={[styles.footerLink, styles.linkColor]}>Sign Up</LinkText>
+              <Text style={[styles.footerLink, styles.link]}>Sign Up</Text>
             </Link>
           </Footer>
         </Fragment>

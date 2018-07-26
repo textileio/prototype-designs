@@ -1,4 +1,4 @@
-import { StyleSheet, Platform } from 'react-native'
+import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
   container: {
@@ -8,6 +8,7 @@ export default StyleSheet.create({
   },
   image: {
     marginBottom: 22,
+    marginTop: 19,
     width: 132,
     height: 40
   },

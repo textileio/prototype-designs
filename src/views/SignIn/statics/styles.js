@@ -1,29 +1,25 @@
 import {StyleSheet} from 'react-native'
+import { BentonSansBold } from '../../../util/fonts'
 
 export default StyleSheet.create({
   formContainer: {
     width: '100%',
     paddingHorizontal: 36
   },
-  bottomLine: {
-    marginTop: 32,
-    alignItems: 'center'
-  },
-  bottomLineText: {
+  forgotText: {
     fontFamily: 'BentonSans',
-    fontSize: 10,
-    lineHeight: 24,
-    color: '#000000'
+    fontSize: 12,
+    color: '#6d6d6d',
+    marginBottom: 29,
+    marginTop: 10,
+    textAlign: 'right'
   },
-  bottomLineLink: {
-    fontFamily: 'BentonSans',
-    fontSize: 10,
-    lineHeight: 24,
-    color: '#000000',
-    marginBottom: 16
-  },
-  linkColor: {
+  link: {
+    ...BentonSansBold(),
     color: '#2625ff'
+  },
+  bottomLine: {
+    alignItems: 'center'
   },
   footerText: {
     fontFamily: 'BentonSans',
