@@ -12,9 +12,6 @@ export default StyleSheet.create({
     fontSize: 16,
     lineHeight: 25,
   },
-  textStyle: {
-    width: '100%'
-  },
   link: {
     ...BentonSansBold(),
     color: '#2625ff'

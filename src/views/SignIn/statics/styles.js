@@ -14,6 +14,11 @@ export default StyleSheet.create({
     marginTop: 10,
     textAlign: 'right'
   },
+  headerText: {
+    fontFamily: 'BentonSans',
+    fontSize: 16,
+    lineHeight: 25,
+  },
   link: {
     ...BentonSansBold(),
     color: '#2625ff'

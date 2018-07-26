@@ -1,5 +1,5 @@
-import SignIn from './SignIn'
-import SignUp from './SignUp'
+import SignIn from './SignIn/SignInContainer'
+import SignUp from './SignUp/SignUpContainer'
 import ForgotPassword from './ForgotPassword/ForgotPasswordContainer'
 import OnBoarding from './OnBoarding'
 import WelcomeMessage from './WelcomeMessage'
