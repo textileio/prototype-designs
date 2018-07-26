@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Text, View, TouchableOpacity } from 'react-native'
+import { Text, View, TouchableOpacity, ScrollView } from 'react-native'
 
 import Input from '../../components/Input'
 import Footer from '../../components/Footer'
@@ -14,7 +14,7 @@ const Step1 = props => {
 
   return (
     <Fragment>
-      <View style={commonStyles.container}>
+      <ScrollView style={commonStyles.container}>
         <Logo>
           <Text style={styles.headerText}>Now create your account to finish.</Text>
         </Logo>
@@ -39,7 +39,7 @@ const Step1 = props => {
             />
           </View>
         </View>
-      </View>
+      </ScrollView>
       <Footer>
         <TouchableOpacity onPress={onPreviousStep}>
           <Text style={[styles.footerLink, styles.link, styles.strong]}>Go back</Text>

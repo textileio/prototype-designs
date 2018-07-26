@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import {Text, View} from 'react-native'
+import { Text, View, ScrollView } from 'react-native'
 import { Link } from 'react-router-native'
 
 import Input from '../../components/Input'
@@ -15,7 +15,7 @@ const ForgotPassword = props => {
 
   return (
     <Fragment>
-      <View style={commonStyles.container}>
+      <ScrollView style={commonStyles.container}>
         <Logo>
           <Text style={styles.headerText}>Forgot your password?</Text>
           <Text style={styles.headerText}>Enter your email to find your account.</Text>
@@ -26,13 +26,14 @@ const ForgotPassword = props => {
             label="Email"
             onChangeText={value => onChange({ name: 'email', value })}
           />
-        </View>
         <Button
+          style={styles.button}
           text="Reset password"
           disabled={!email}
           onPress={() => history.push('/welcome')}
         />
-      </View>
+        </View>
+      </ScrollView>
       <Footer>
         <Link to={{pathname: '/signIn'}}>
           <Text style={[styles.footerLink, styles.link]}>Return to log in</Text>

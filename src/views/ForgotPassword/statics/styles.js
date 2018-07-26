@@ -5,7 +5,6 @@ export default StyleSheet.create({
   formContainer: {
     width: '100%',
     paddingHorizontal: 36,
-    marginBottom: 8
   },
   headerText: {
     fontFamily: 'BentonSans',
@@ -15,6 +14,9 @@ export default StyleSheet.create({
   link: {
     ...BentonSansBold(),
     color: '#2625ff'
+  },
+  button: {
+    marginTop: 8
   },
   bottomLine: {
     alignItems: 'center'

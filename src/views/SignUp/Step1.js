@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import {Text, View} from 'react-native'
+import {Text, View, ScrollView} from 'react-native'
 import { Link } from 'react-router-native'
 
 import Input from '../../components/Input'
@@ -15,7 +15,7 @@ const Step1 = props => {
 
   return (
     <Fragment>
-      <View style={commonStyles.container}>
+      <ScrollView style={commonStyles.container}>
         <Logo>
           <Text style={styles.headerText}>Welcome! Who is there?</Text>
         </Logo>
@@ -39,7 +39,7 @@ const Step1 = props => {
             />
           </View>
         </View>
-      </View>
+      </ScrollView>
       <Footer>
         <Text style={styles.footerText}>Already have an account? </Text>
         <Link to={{pathname: '/signIn'}}>

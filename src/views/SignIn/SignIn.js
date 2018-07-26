@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import {Text, View} from 'react-native'
+import { Text, View, ScrollView } from 'react-native'
 import { Link } from 'react-router-native'
 
 import Input from '../../components/Input'
@@ -15,7 +15,7 @@ const SignIn = props => {
 
   return (
     <Fragment>
-      <View style={commonStyles.container}>
+      <ScrollView style={commonStyles.container}>
         <Logo>
           <Text style={styles.headerText}>Please Login In to continue</Text>
         </Logo>
@@ -40,7 +40,7 @@ const SignIn = props => {
             />
           </View>
         </View>
-      </View>
+      </ScrollView>
       <Footer>
         <Text style={styles.footerText}>Don't have an account? </Text>
         <Link to={{pathname: '/signUp'}}>

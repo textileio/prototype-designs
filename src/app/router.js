@@ -34,8 +34,8 @@ const App = props => {
       {/*<Route render={() => <WelcomeMessage/>}/>*/}
       {/*<Route render={() => <OnBoarding onSubmit={() => history.push('/signUp')}/>} />}/>*/}
       {/*<Route render={() => <SignIn/>}/>*/}
-      <Route render={() => <SignUp/>}/>
-      {/*<Route render={() => <ForgotPassword />}/>*/}
+      {/*<Route render={() => <SignUp/>}/>*/}
+      <Route render={() => <ForgotPassword />}/>
       {/*<Route render={() => <ThreadsList />}/>*/}
       {/*<Route render={() => <ThreadsDetail />}/>*/}
       {/*<Route render={() => <ThreadsEditName />}/>*/}
