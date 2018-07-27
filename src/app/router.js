@@ -5,6 +5,7 @@ import {Switch, Route, withRouter} from 'react-router-native'
 import {
   SignIn,
   SignUp,
+  ForgotPassword,
   WelcomeMessage,
   OnBoarding,
   ThreadsList,
@@ -18,7 +19,11 @@ import {
   WalletList,
   WalletListSelected,
   PhotoDetail,
-  UserProfile
+  PhotoDetailInfo,
+  OtherUserProfile,
+  UserProfile,
+  UserProfileInvite,
+  FeedList
 } from '../views'
 
 const App = props => {
@@ -29,7 +34,8 @@ const App = props => {
       {/*<Route render={() => <WelcomeMessage/>}/>*/}
       {/*<Route render={() => <OnBoarding onSubmit={() => history.push('/signUp')}/>} />}/>*/}
       {/*<Route render={() => <SignIn/>}/>*/}
-      {/*<Route render={() => <SignUp/>}/>*/}
+      <Route render={() => <SignUp/>}/>
+      {/*<Route render={() => <ForgotPassword />}/>*/}
       {/*<Route render={() => <ThreadsList />}/>*/}
       {/*<Route render={() => <ThreadsDetail />}/>*/}
       {/*<Route render={() => <ThreadsEditName />}/>*/}
@@ -40,8 +46,12 @@ const App = props => {
       {/*<Route render={() => <ThreadPhotoDetail />}/>*/}
       {/*<Route render={() => <WalletList />}/>*/}
       {/*<Route render={() => <WalletListSelected />}/>*/}
-      <Route render={() => <PhotoDetail />}/>
+      {/*<Route render={() => <PhotoDetail />}/>*/}
+      {/*<Route render={() => <PhotoDetailInfo />}/>*/}
+      {/*<Route render={() => <OtherUserProfile />}/>*/}
       {/*<Route render={() => <UserProfile />}/>*/}
+      {/*<Route render={() => <UserProfileInvite />}/>*/}
+      {/*<Route render={() => <FeedList />}/>*/}
     </Switch>
   )
 }
