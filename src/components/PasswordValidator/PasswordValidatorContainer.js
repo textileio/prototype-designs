@@ -1,4 +1,6 @@
 import React from 'react'
+import propTypes from 'prop-types'
+
 import PasswordValidator from './PasswordValidator'
 
 class PasswordValidatorContainer extends React.Component {
@@ -6,33 +8,38 @@ class PasswordValidatorContainer extends React.Component {
     super(props)
 
     this.state = {
-      password: '',
       condition: 'Weak'
     }
   }
 
   componentWillUpdate (oldProps) {
     if (oldProps !== this.props) {
-      this.onValidate(this.props.password)
+      this.onValidate(oldProps.password)
     }
   }
 
   onValidate = text => {
-    if (!text.includes('01234556789')) {
-      return this.setState({
-        condition: 'Weak'
-      })
-    }
+    text // TODO: really dumb implementation
+      .split('')
+      .map(letter => {
+        if ('!@#$%^&*()'.includes(letter)) {
+          this.setState({
+            condition: 'Strong'
+          })
+        }
 
-    if (!text.includes('!@#$%^&*()')) {
-      return this.setState({
-        condition: 'Normal'
-      })
-    }
+        if ('1234567890'.includes(letter)) {
+          this.setState({
+            condition: 'Normal'
+          })
+        }
 
-    this.setState({
-      condition: 'Strong'
-    })
+        if ('qwertyuiopasdfghjklzxcvbnm'.includes(letter)) {
+          this.setState({
+            condition: 'Weak'
+          })
+        }
+      })
   }
 
   render () {
@@ -44,6 +51,10 @@ class PasswordValidatorContainer extends React.Component {
       />
     )
   }
+}
+
+PasswordValidatorContainer.propTypes = {
+  password: propTypes.string
 }
 
 export default PasswordValidatorContainer

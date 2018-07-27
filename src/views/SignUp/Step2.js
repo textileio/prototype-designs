@@ -5,6 +5,7 @@ import Input from '../../components/Input'
 import Footer from '../../components/Footer'
 import Logo from '../../components/Logo'
 import Button from '../../components/Button'
+import PasswordValidator from '../../components/PasswordValidator/PasswordValidatorContainer'
 
 import commonStyles from '../commonStyles'
 import styles from './statics/styles'
@@ -35,7 +36,9 @@ const Step1 = props => {
               secureTextEntry
               onChangeText={value => onChange({ name: 'password', value })}
             />
-            <Text style={{ position: 'absolute', right: 0, bottom: 20 }}>Strong</Text>
+            <View style={{ position: 'absolute', right: 0, bottom: 20 }}>
+              <PasswordValidator display={password} password={password} />
+            </View>
           </View>
           <View style={styles.bottomLine}>
             <Text style={styles.bottomLineLink}>By signing up you agree to our <Text style={styles.link}>Terms and Conditions</Text></Text>
