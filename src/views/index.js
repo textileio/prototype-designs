@@ -9,7 +9,11 @@ import ThreadsEditFriends from './ThreadsEditFriends'
 import ThreadCreate from './ThreadCreate'
 import ThreadEdit from './ThreadEdit'
 import ThreadAddPhoto from './ThreadAddPhoto'
+import ThreadPhotoDetail from './ThreadPhotoDetail'
+import WalletList from './WalletList'
+import WalletListSelected from './WalletListSelected'
 import UserProfile from './UserProfile'
+import PhotoDetail from './PhotoDetail'
 
 export { SignIn }
 export { SignUp }
@@ -22,4 +26,8 @@ export { ThreadsEditFriends }
 export { ThreadCreate }
 export { ThreadEdit }
 export { ThreadAddPhoto }
+export { ThreadPhotoDetail }
+export { WalletList }
+export { WalletListSelected }
+export { PhotoDetail }
 export { UserProfile }

@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, Image, ScrollView } from 'react-native'
 
 import Toolbar from '../../components/Toolbar'
+import PhotoWithTextBox from '../../components/PhotoWithTextBox'
 
 import styles from './statics/styles'
 
@@ -22,18 +23,9 @@ const UserProfile = () => {
       <View style={styles.contentContainer}>
         <Text style={styles.title}>Threads in common with Briana:</Text>
         <ScrollView>
-          <View style={styles.itemContainer}>
-            <Image style={styles.itemPhoto} source={require('./statics/photo1.png')} />
-            <Text style={styles.itemText}>San Francisco</Text>
-          </View>
-          <View style={styles.itemContainer}>
-            <Image style={styles.itemPhoto} source={require('./statics/photo2.png')} />
-            <Text style={styles.itemText}>San Francisco</Text>
-          </View>
-          <View style={styles.itemContainer}>
-            <Image style={styles.itemPhoto} source={require('./statics/photo3.png')} />
-            <Text style={styles.itemText}>San Francisco</Text>
-          </View>
+          <PhotoWithTextBox photo={require('./statics/photo1.png')} text='San Francisco' />
+          <PhotoWithTextBox photo={require('./statics/photo1.png')} text='San Francisco' />
+          <PhotoWithTextBox photo={require('./statics/photo1.png')} text='San Francisco' />
         </ScrollView>
       </View>
     </View>
