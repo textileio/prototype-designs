@@ -8,6 +8,9 @@ export default StyleSheet.create({
   logo: {
     marginBottom: 40
   },
+  logoStep2: {
+    marginBottom: 26,
+  },
   contentContainer: {
     width: '100%',
     paddingHorizontal: 36
@@ -38,5 +41,11 @@ export default StyleSheet.create({
   },
   uploadContainer: {
     alignItems: 'center'
+  },
+  photoUploaded: {
+    marginBottom: 40
+  },
+  uploadButton: {
+    marginBottom: 35
   }
 })

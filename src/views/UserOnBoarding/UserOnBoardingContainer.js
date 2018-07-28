@@ -6,26 +6,35 @@ class UserOnBoardingContainer extends React.Component {
     super(props)
 
     this.state = {
-      username: '',
-      password: ''
+      step: 0
     }
   }
 
-  onChange = ({ name, value }) => {
+  onNextStep = () => {
+    const { step } = this.state
+
     this.setState({
-      [name]: value
+      step: step + 1
+    })
+  }
+
+  onPreviousStep = () => {
+    const { step } = this.state
+
+    this.setState({
+      step: step + 1
     })
   }
 
   render () {
-    const { username, password } = this.state
+    const { step } = this.state
 
     return (
       <UserOnBoarding
         {...this.props}
-        username={username}
-        password={password}
-        onChange={this.onChange}
+        step={step}
+        onNextStep={this.onNextStep}
+        onPreviousStep={this.onPreviousStep}
       />
     )
   }

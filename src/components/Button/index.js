@@ -1,9 +1,11 @@
 import React from 'react'
+import propTypes from 'prop-types'
+
 import { Text, TouchableOpacity } from 'react-native'
 
 import styles from './statics/styles'
 
-const ButtonNext = props => {
+const Button = props => {
   const { onPress, disabled, text, style, textStyle } = props
 
   return (
@@ -13,4 +15,9 @@ const ButtonNext = props => {
   )
 }
 
-export default ButtonNext
+Button.propTypes = {
+  text: propTypes.string.isRequired,
+  onPress: propTypes.func.isRequired,
+}
+
+export default Button
