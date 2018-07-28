@@ -37,11 +37,11 @@ const App = props => {
       {/*<Route render={() => <SignIn/>}/>*/}
       {/*<Route render={() => <SignUp/>}/>*/}
       {/*<Route render={() => <ForgotPassword />}/>*/}
-      <Route render={() => <UserOnBoarding />}/>
+      {/*<Route render={() => <UserOnBoarding />}/>*/}
       {/*<Route render={() => <ThreadsList />}/>*/}
       {/*<Route render={() => <ThreadsDetail />}/>*/}
       {/*<Route render={() => <ThreadsEditName />}/>*/}
-      {/*<Route render={() => <ThreadsEditFriends />}/>*/}
+      <Route render={() => <ThreadsEditFriends />}/>
       {/*<Route render={() => <ThreadCreate />}/>*/}
       {/*<Route render={() => <ThreadEdit />}/>*/}
       {/*<Route render={() => <ThreadAddPhoto />}/>*/}

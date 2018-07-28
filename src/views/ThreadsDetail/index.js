@@ -5,6 +5,7 @@ import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
 import ThreadDetailCard from '../../components/ThreadDetailCard'
 import BottomDrawerList from '../../components/BottomDrawerList'
+import UserProfilePhoto from '../../components/UserProfilePhoto'
 
 import styles from './statics/styles'
 import list from './constants'
@@ -24,9 +25,9 @@ const ThreadsEdit = () => {
         }>
         <Text style={styles.toolbarTitle}>Summer</Text>
         <View style={styles.toolbarUserContainer}>
-          <Image style={styles.toolbarUserIcon} source={require('./statics/icon-photo1.png')} />
-          <Image style={styles.toolbarUserIcon} source={require('./statics/icon-photo2.png')} />
-          <Image style={styles.toolbarUserIcon} source={require('./statics/icon-photo3.png')} />
+          <UserProfilePhoto style={styles.mr10} width={27} photo={require('./statics/user-photo2.png')} />
+          <UserProfilePhoto style={styles.mr10} width={27} photo={require('./statics/user-photo3.png')} />
+          <UserProfilePhoto style={styles.mr10} width={27} photo={require('./statics/user-photo2.png')} />
           <Image style={styles.toolbarUserIcon} source={require('./statics/icon-user-more.png')} />
         </View>
       </Toolbar>

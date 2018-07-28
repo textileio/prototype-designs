@@ -3,6 +3,7 @@ import { View, Text, Image } from 'react-native'
 import Dash from 'react-native-dash'
 
 import SmallIconTag from '../SmallIconTag'
+import UserProfilePhoto from '../../components/UserProfilePhoto'
 
 import styles from './statics/styles'
 
@@ -43,7 +44,7 @@ const ThreadDetailCard = props => {
             <Text style={styles.cardAction}><Text style={styles.cardActionName}>You added</Text> 3 more contacts</Text>
             <View style={styles.userPhotosContainer}>
               { props.items.map((item, i) => (
-                <Image key={i} style={styles.toolbarUserIcon} source={item} />
+                <UserProfilePhoto key={i} width={38} photo={item} style={{ marginRight: 14 }} />
               ))}
             </View>
           </View>

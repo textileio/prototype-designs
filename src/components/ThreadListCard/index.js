@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Image, Text } from 'react-native'
 
 import SmallIconTag from '../SmallIconTag'
+import UserProfilePhoto from '../../components/UserProfilePhoto'
 
 import styles, { cardImageContainerStyle, cardImageStyle } from './statics/styles'
 
@@ -26,7 +27,7 @@ const ThreadCard = props => {
           </View>
         </View>
         <View style={styles.threadCardHeaderRight}>
-          <Image source={userProfilePicture} />
+          <UserProfilePhoto width={38} photo={userProfilePicture} />
         </View>
       </View>
       <View style={styles.threadCardBody}>
