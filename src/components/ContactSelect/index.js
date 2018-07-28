@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, Image, ScrollView, TextInput } from 'react-native'
 
 import RadioButton from '../../components/RadioButton'
+import UserProfilePhoto from '../../components/UserProfilePhoto'
 
 import styles from './statics/styles'
 
@@ -16,17 +17,17 @@ const ContactSelect = () => {
         <Text style={styles.subtitle}>Suggestion contacts</Text>
         <View style={styles.selectedContactList}>
           <View style={styles.selectedContact}>
-            <Image style={styles.contactIcon} source={require('./statics/icon-photo1.png')} />
+            <UserProfilePhoto width={43} photo={require('./statics/user-photo2.png')} />
             <Image style={styles.selectedContactIcon} source={require('./statics/icon-select.png')} />
           </View>
           <View style={styles.selectedContact}>
-            <Image style={styles.contactIcon} source={require('./statics/icon-photo1.png')} />
+            <UserProfilePhoto width={43} photo={require('./statics/user-photo2.png')} />
           </View>
           <View style={styles.selectedContact}>
-            <Image style={styles.contactIcon} source={require('./statics/icon-photo1.png')} />
+            <UserProfilePhoto width={43} photo={require('./statics/user-photo2.png')} />
           </View>
           <View style={styles.selectedContact}>
-            <Image style={styles.contactIcon} source={require('./statics/icon-photo1.png')} />
+            <UserProfilePhoto width={43} photo={require('./statics/user-photo2.png')} />
           </View>
         </View>
       </View>
@@ -37,20 +38,20 @@ const ContactSelect = () => {
         </View>
         <ScrollView style={styles.contactList}>
           <View style={styles.contactItem}>
-            <Image style={styles.selectedContact} source={require('./statics/icon-photo1.png')} />
+            <UserProfilePhoto style={{ marginRight: 10 }} width={43} photo={require('./statics/user-photo2.png')} />
             <Text style={styles.contactName}>John Malkovich</Text>
             <View style={styles.contactSelectRadio}>
               <RadioButton selected={true} />
             </View>
           </View>
           <View style={styles.contactItem}>
-            <Image style={styles.selectedContact} source={require('./statics/icon-photo1.png')} />
+            <UserProfilePhoto style={{ marginRight: 10 }} width={43} photo={require('./statics/user-photo2.png')} />
             <Text style={styles.contactName}>John Malkovich</Text>
             <View style={styles.contactSelectRadio}>
               <RadioButton selected={false} />
             </View>            </View>
           <View style={styles.contactItem}>
-            <Image style={styles.selectedContact} source={require('./statics/icon-photo1.png')} />
+            <UserProfilePhoto style={{ marginRight: 10 }} width={43} photo={require('./statics/user-photo2.png')} />
             <Text style={styles.contactName}>John Malkovich</Text>
             <View style={styles.contactSelectRadio}>
               <RadioButton selected={false} />

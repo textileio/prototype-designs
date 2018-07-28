@@ -2,7 +2,8 @@ import SignIn from './SignIn/SignInContainer'
 import SignUp from './SignUp/SignUpContainer'
 import ForgotPassword from './ForgotPassword/ForgotPasswordContainer'
 import OnBoarding from './OnBoarding'
-import WelcomeMessage from './WelcomeMessage'
+import UserOnBoarding from './UserOnBoarding/UserOnBoardingContainer'
+import SyncPermissions from './SyncPermissions'
 import ThreadsList from './ThreadsList'
 import ThreadsDetail from './ThreadsDetail'
 import ThreadsEditName from './ThreadsEditName'
@@ -24,7 +25,8 @@ export { SignIn }
 export { SignUp }
 export { ForgotPassword }
 export { OnBoarding }
-export { WelcomeMessage }
+export { UserOnBoarding }
+export { SyncPermissions }
 export { ThreadsList }
 export { ThreadsDetail }
 export { ThreadsEditName }

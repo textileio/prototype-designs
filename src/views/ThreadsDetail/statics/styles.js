@@ -40,5 +40,8 @@ export default StyleSheet.create({
     height: 27,
     width: 27,
     marginRight: 10
+  },
+  mr10: {
+    marginRight: 10
   }
 })

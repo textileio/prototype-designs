@@ -8,6 +8,7 @@ import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
 import Button from '../../components/Button'
 import ThreadCard from '../../components/ThreadListCard'
+import UserProfilePhoto from '../../components/UserProfilePhoto'
 
 const ThreadsList = () => {
   const empty = false // TODO: Change to see different states
@@ -15,7 +16,7 @@ const ThreadsList = () => {
   return (
     <View style={styles.container}>
       <Toolbar
-        left={<Image style={styles.toolbarIcon} source={require('./statics/photo.png')} />}
+        left={<UserProfilePhoto width={24} photo={require('./statics/photo.png')} />}
         center={<Image style={styles.toolbarLogo} source={require('./statics/logo.png')} />}
         right={<Image style={styles.toolbarIcon} source={require('./statics/plus.png')} />}
       />
