@@ -7,7 +7,7 @@ import {
   SignUp,
   ForgotPassword,
   UserOnBoarding,
-  WelcomeMessage,
+  SyncPermissions,
   OnBoarding,
   ThreadsList,
   ThreadsDetail,
@@ -32,12 +32,12 @@ const App = props => {
 
   return (
     <Switch>
-      {/*<Route render={() => <WelcomeMessage/>}/>*/}
       {/*<Route render={() => <OnBoarding onSubmit={() => history.push('/signUp')}/>} />}/>*/}
       {/*<Route render={() => <SignIn/>}/>*/}
       {/*<Route render={() => <SignUp/>}/>*/}
       {/*<Route render={() => <ForgotPassword />}/>*/}
       {/*<Route render={() => <UserOnBoarding />}/>*/}
+      <Route render={() => <SyncPermissions />}/>
       {/*<Route render={() => <ThreadsList />}/>*/}
       {/*<Route render={() => <ThreadsDetail />}/>*/}
       {/*<Route render={() => <ThreadsEditName />}/>*/}
@@ -53,7 +53,7 @@ const App = props => {
       {/*<Route render={() => <OtherUserProfile />}/>*/}
       {/*<Route render={() => <UserProfile />}/>*/}
       {/*<Route render={() => <UserProfileInvite />}/>*/}
-      <Route render={() => <FeedList />}/>
+      {/*<Route render={() => <FeedList />}/>*/}
     </Switch>
   )
 }
