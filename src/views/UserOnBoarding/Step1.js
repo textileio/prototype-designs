@@ -4,7 +4,6 @@ import ImageSc from 'react-native-scalable-image'
 
 import Logo from '../../components/Logo'
 
-import commonStyles from '../commonStyles'
 import styles from './statics/styles'
 
 const Step1 = props => {
@@ -12,7 +11,7 @@ const Step1 = props => {
 
   return (
     <Fragment>
-      <ScrollView style={commonStyles.container}>
+      <ScrollView>
         <Logo style={styles.headerContainer} logoStyle={styles.logo}>
           <Text style={styles.title}>Welcome aboard</Text>
           <Text style={[styles.title, styles.strong]}>Michael</Text>

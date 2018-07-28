@@ -5,7 +5,6 @@ import Logo from '../../components/Logo'
 import Button from '../../components/Button'
 import UserProfilePhoto from '../../components/UserProfilePhoto'
 
-import commonStyles from '../commonStyles'
 import styles from './statics/styles'
 
 const Step2 = props => {
@@ -13,7 +12,7 @@ const Step2 = props => {
 
   return (
     <Fragment>
-      <ScrollView style={commonStyles.container}>
+      <ScrollView>
         <Logo style={styles.headerContainer} logoStyle={styles.logoStep2}>
           <Text style={styles.title}>This is a very good photo!</Text>
         </Logo>
