@@ -18,7 +18,7 @@ const UserProfilePhoto = props => {
 }
 
 UserProfilePhoto.propTypes = {
-  photo: propTypes.func.isRequired,
+  photo: propTypes.number.isRequired,
   width: propTypes.number.isRequired
 }
 

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { Text, View, ScrollView } from 'react-native'
+import { Text, View, ScrollView, TouchableOpacity } from 'react-native'
 
 import Logo from '../../components/Logo'
 import Button from '../../components/Button'
@@ -9,7 +9,7 @@ import commonStyles from '../commonStyles'
 import styles from './statics/styles'
 
 const Step2 = props => {
-  const {  } = props
+  const { onPreviousStep } = props
 
   return (
     <Fragment>
@@ -21,7 +21,9 @@ const Step2 = props => {
           <View style={styles.uploadContainer}>
             <UserProfilePhoto style={styles.photoUploaded} width={183} photo={require('./statics/photo.png')} />
             <Button style={styles.uploadButton} text='Confirm Picture' onPress={() => {}} />
-            <Text style={styles.link}>Select Profile Picture </Text>
+            <TouchableOpacity onPress={onPreviousStep}>
+              <Text style={styles.link}>Select Profile Picture </Text>
+            </TouchableOpacity>
           </View>
         </View>
       </ScrollView>
