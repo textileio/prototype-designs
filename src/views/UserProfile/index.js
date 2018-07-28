@@ -3,6 +3,7 @@ import { View, Text, Image } from 'react-native'
 import ImageSc from 'react-native-scalable-image'
 
 import Toolbar from '../../components/Toolbar'
+import UserProfilePhoto from '../../components/UserProfilePhoto'
 
 import styles from './statics/styles'
 
@@ -17,7 +18,7 @@ const UserProfile = () => {
             <Text style={styles.toolbarUserName}>Hello Briana</Text>
             <Text style={styles.toolbarThreadsQty}><Text style={styles.strong}>3,423</Text> Photos</Text>
           </View>
-          <Image style={styles.toolbarImage} source={require('./statics/icon-user.png')} />
+          <UserProfilePhoto width={59} photo={require('./statics/icon-user.png')} />
         </View>
       </Toolbar>
       <View style={styles.contentContainer}>

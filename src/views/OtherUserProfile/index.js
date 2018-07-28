@@ -3,6 +3,7 @@ import { View, Text, Image, ScrollView } from 'react-native'
 
 import Toolbar from '../../components/Toolbar'
 import PhotoWithTextBox from '../../components/PhotoWithTextBox'
+import UserProfilePhoto from '../../components/UserProfilePhoto'
 
 import styles from './statics/styles'
 
@@ -17,7 +18,7 @@ const UserProfile = () => {
             <Text style={styles.toolbarUserName}>Briana Casali</Text>
             <Text style={styles.toolbarThreadsQty}><Text style={styles.strong}>6</Text> Threads</Text>
           </View>
-          <Image style={styles.toolbarImage} source={require('./statics/icon-user.png')} />
+          <UserProfilePhoto width={59} photo={require('./statics/icon-user.png')} />
         </View>
       </Toolbar>
       <View style={styles.contentContainer}>

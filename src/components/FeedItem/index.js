@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
-import ImageSc from 'react-native-scalable-image'
+
+import UserProfilePhoto from '../../components/UserProfilePhoto'
 
 import styles from './statics/styles'
 
@@ -9,12 +10,12 @@ const FeedItem = props => {
 
   return (
     <View style={styles.itemContainer}>
-      <ImageSc width={29} source={userPhoto} />
+      <UserProfilePhoto width={29} photo={userPhoto} />
       <View style={styles.textContainer}>
         <Text style={styles.text}><Text style={styles.strong}>{actionUser}</Text> {actionMsg}</Text>
         <Text style={styles.timestamp}>{timestamp}</Text>
       </View>
-      <ImageSc width={40} source={photo} />
+      <UserProfilePhoto width={40} photo={photo} />
     </View>
   )
 }

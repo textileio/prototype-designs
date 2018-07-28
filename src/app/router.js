@@ -41,7 +41,7 @@ const App = props => {
       {/*<Route render={() => <ThreadsList />}/>*/}
       {/*<Route render={() => <ThreadsDetail />}/>*/}
       {/*<Route render={() => <ThreadsEditName />}/>*/}
-      <Route render={() => <ThreadsEditFriends />}/>
+      {/*<Route render={() => <ThreadsEditFriends />}/>*/}
       {/*<Route render={() => <ThreadCreate />}/>*/}
       {/*<Route render={() => <ThreadEdit />}/>*/}
       {/*<Route render={() => <ThreadAddPhoto />}/>*/}
@@ -53,7 +53,7 @@ const App = props => {
       {/*<Route render={() => <OtherUserProfile />}/>*/}
       {/*<Route render={() => <UserProfile />}/>*/}
       {/*<Route render={() => <UserProfileInvite />}/>*/}
-      {/*<Route render={() => <FeedList />}/>*/}
+      <Route render={() => <FeedList />}/>
     </Switch>
   )
 }
