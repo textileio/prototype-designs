@@ -51,7 +51,10 @@ const RootStack = createStackNavigator({
   UserProfileInvite: { screen: UserProfileInvite },
   FeedList: { screen: FeedList },
 }, {
-  initialRouteName: 'ThreadsList'
+  initialRouteName: 'ThreadsList',
+  navigationOptions: {
+    header: null
+  }
 })
 
 export default class App extends React.Component {
