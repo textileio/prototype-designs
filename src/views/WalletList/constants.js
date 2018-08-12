@@ -11,47 +11,47 @@ export default [
         photo: require('./statics/photo2.png')
       },
       {
-        id: 3,
+        id: 4,
         photo: require('./statics/photo4.png')
+      },
+      {
+        id: 1,
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        id: 1,
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        id: 2,
+        photo: require('./statics/photo2.png')
       },
       {
         id: 4,
-        photo: require('./statics/photo1.png'),
-      },
-      {
-        id: 5,
-        photo: require('./statics/photo1.png'),
-      },
-      {
-        id: 6,
-        photo: require('./statics/photo2.png')
-      },
-      {
-        id: 7,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 8,
+        id: 1,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 9,
+        id: 2,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 10,
+        id: 4,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 11,
+        id: 1,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 12,
+        id: 2,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 13,
+        id: 4,
         photo: require('./statics/photo4.png')
       },
     ]
@@ -68,47 +68,47 @@ export default [
         photo: require('./statics/photo2.png')
       },
       {
-        id: 3,
+        id: 4,
         photo: require('./statics/photo4.png')
+      },
+      {
+        id: 1,
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        id: 1,
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        id: 2,
+        photo: require('./statics/photo2.png')
       },
       {
         id: 4,
-        photo: require('./statics/photo1.png'),
-      },
-      {
-        id: 5,
-        photo: require('./statics/photo1.png'),
-      },
-      {
-        id: 6,
-        photo: require('./statics/photo2.png')
-      },
-      {
-        id: 7,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 8,
+        id: 1,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 9,
+        id: 2,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 10,
+        id: 4,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 11,
+        id: 1,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 12,
+        id: 2,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 13,
+        id: 4,
         photo: require('./statics/photo4.png')
       },
     ]
@@ -125,47 +125,47 @@ export default [
         photo: require('./statics/photo2.png')
       },
       {
-        id: 3,
+        id: 4,
         photo: require('./statics/photo4.png')
+      },
+      {
+        id: 1,
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        id: 1,
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        id: 2,
+        photo: require('./statics/photo2.png')
       },
       {
         id: 4,
-        photo: require('./statics/photo1.png'),
-      },
-      {
-        id: 5,
-        photo: require('./statics/photo1.png'),
-      },
-      {
-        id: 6,
-        photo: require('./statics/photo2.png')
-      },
-      {
-        id: 7,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 8,
+        id: 1,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 9,
+        id: 2,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 10,
+        id: 4,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 11,
+        id: 1,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 12,
+        id: 2,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 13,
+        id: 4,
         photo: require('./statics/photo4.png')
       },
     ]
@@ -182,47 +182,47 @@ export default [
         photo: require('./statics/photo2.png')
       },
       {
-        id: 3,
+        id: 4,
         photo: require('./statics/photo4.png')
+      },
+      {
+        id: 1,
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        id: 1,
+        photo: require('./statics/photo1.png'),
+      },
+      {
+        id: 2,
+        photo: require('./statics/photo2.png')
       },
       {
         id: 4,
-        photo: require('./statics/photo1.png'),
-      },
-      {
-        id: 5,
-        photo: require('./statics/photo1.png'),
-      },
-      {
-        id: 6,
-        photo: require('./statics/photo2.png')
-      },
-      {
-        id: 7,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 8,
+        id: 1,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 9,
+        id: 2,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 10,
+        id: 4,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 11,
+        id: 1,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 12,
+        id: 2,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 13,
+        id: 4,
         photo: require('./statics/photo4.png')
       },
     ]

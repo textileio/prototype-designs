@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Image, Dimensions, ScrollView } from 'react-native'
+import { View, Text, Image, Dimensions, ScrollView, TouchableOpacity } from 'react-native'
 import ImageSc from 'react-native-scalable-image'
 
 import Toolbar from '../../components/Toolbar'
@@ -8,17 +8,24 @@ import PhotoWithTextBox from '../../components/PhotoWithTextBox'
 import PhotoBoxEmpty from '../../components/PhotoBoxEmpty'
 
 import styles from './statics/styles'
-import { photoList } from './constants'
+import photos, { photoList } from './constants'
 const { width } = Dimensions.get('window')
 
-const PhotoDetail = () => {
+const PhotoDetail = props => {
+  const { navigation } = props
+
   const drawer = false
+  const photoId = navigation.getParam('id')
 
   return (
     <View style={styles.container}>
       <Toolbar
         style={styles.toolbar}
-        left={<Image style={styles.toolbarLeft} source={require('./statics/icon-arrow-left.png')} />}
+        left={
+          <TouchableOpacity onPress={() => navigation.goBack()}>
+            <Image style={styles.toolbarLeft} source={require('./statics/icon-arrow-left.png')} />
+          </TouchableOpacity>
+        }
         right={
           <View style={styles.toolbarIconsList}>
             <Image style={styles.toolbarAddIcon} source={require('./statics/icon-add.png')} />
@@ -28,7 +35,7 @@ const PhotoDetail = () => {
           </View>
         }
       />
-      <ImageSc width={width} source={require('./statics/photo3.png')} />
+      <ImageSc width={width} source={photos[photoId].photo} />
       <View style={styles.photoDetails}>
         <View style={styles.detailItem}>
           <Image style={styles.iconLocation} source={require('./statics/icon-location.png')} />
