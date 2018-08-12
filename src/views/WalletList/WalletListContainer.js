@@ -8,6 +8,7 @@ class WalletListContainer extends React.Component {
     super(props)
     this.state = {
       scaleAnim: new Animated.Value(1),
+      gridType: 'grid'
     }
   }
 
@@ -27,13 +28,23 @@ class WalletListContainer extends React.Component {
     ]).start()
   }
 
+  onToggleGrid = () => {
+    const { gridType } = this.state
+
+    this.setState({
+      gridType: gridType === 'grid' ? 'list' : 'grid'
+    })
+  }
+
   render () {
-    const { scaleAnim } = this.state
+    const { scaleAnim, gridType } = this.state
 
     return (
       <WalletList
         {...this.props}
         onUnmount={this.onUnmount}
+        onToggleGrid={this.onToggleGrid}
+        gridType={gridType}
         scaleAnim={scaleAnim}
       />
     )
