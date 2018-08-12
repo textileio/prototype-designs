@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { createStackNavigator } from 'react-navigation'
+import { FluidNavigator } from 'react-navigation-fluid-transitions'
 
 import {
   SignIn,
@@ -27,7 +27,7 @@ import {
   FeedList
 } from '../views'
 
-const RootStack = createStackNavigator({
+const RootStack = FluidNavigator({
   SignIn: { screen: SignIn },
   SignUp: { screen: SignUp },
   ForgotPassword: { screen: ForgotPassword },

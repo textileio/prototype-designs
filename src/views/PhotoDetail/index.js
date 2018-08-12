@@ -1,5 +1,6 @@
 import React from 'react'
 import { View, Text, Image, Dimensions, ScrollView, TouchableOpacity } from 'react-native'
+import { Transition } from 'react-navigation-fluid-transitions'
 import ImageSc from 'react-native-scalable-image'
 
 import Toolbar from '../../components/Toolbar'
@@ -16,6 +17,7 @@ const PhotoDetail = props => {
 
   const drawer = false
   const photoId = navigation.getParam('id')
+  const sharedProp = navigation.getParam('sharedProp')
 
   return (
     <View style={styles.container}>
@@ -35,7 +37,9 @@ const PhotoDetail = props => {
           </View>
         }
       />
-      <ImageSc width={width} source={photos[photoId].photo} />
+      <Transition shared={sharedProp} appear='scale'>
+        <ImageSc width={width} source={photos[photoId].photo} />
+      </Transition>
       <View style={styles.photoDetails}>
         <View style={styles.detailItem}>
           <Image style={styles.iconLocation} source={require('./statics/icon-location.png')} />
