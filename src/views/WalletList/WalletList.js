@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, Image, Animated, TouchableOpacity } from 'react-native'
+import { Transition } from 'react-navigation-fluid-transitions'
 
 import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
@@ -14,13 +15,17 @@ const WalletList = props => {
   const drawer = false
   const alertDisplay = false
 
-  const { scaleAnim, gridType, onToggleGrid } = props
+  const { scaleAnim, gridType, onToggleGrid, navigation } = props
 
   return (
     <Animated.View style={[styles.container, { transform: [{ scale: scaleAnim }] }]}>
       <Toolbar
         style={styles.toolbar}
-        left={<Image style={styles.toolbarIconUser} source={require('./statics/icon-photo1.png')} />}
+        left={
+          <TouchableOpacity onPress={() => navigation.navigate('UserProfile')}>
+            <Image style={styles.toolbarIconUser} source={require('./statics/icon-photo1.png')} />
+          </TouchableOpacity>
+        }
         right={
           <TouchableOpacity onPress={onToggleGrid}>
             <Image style={styles.toolbarIconList} source={require('./statics/icon-list.png')} />
