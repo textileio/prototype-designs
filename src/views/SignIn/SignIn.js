@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
-import { Text, View, ScrollView } from 'react-native'
-import { Link } from 'react-router-native'
+import { Text, View, ScrollView, TouchableOpacity } from 'react-native'
 
 import Input from '../../components/Input'
 import Footer from '../../components/Footer'
@@ -46,9 +45,9 @@ const SignIn = props => {
         <Alert display={displayAlert} bottom msg='A link to reset your password has been sent to your email.' />
       <Footer>
         <Text style={styles.footerText}>Don't have an account? </Text>
-        <Link to={{pathname: '/signUp'}}>
+        <TouchableOpacity onPress={() => props.navigation.navigate('SignUp')}>
           <Text style={[styles.footerLink, styles.link]}>Sign Up</Text>
-        </Link>
+        </TouchableOpacity>
       </Footer>
     </Fragment>
   )

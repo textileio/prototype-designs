@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
-import {Text, View, ScrollView} from 'react-native'
-import { Link } from 'react-router-native'
+import {Text, View, ScrollView, TouchableOpacity} from 'react-native'
 
 import Input from '../../components/Input'
 import Footer from '../../components/Footer'
@@ -42,9 +41,9 @@ const Step1 = props => {
       </ScrollView>
       <Footer>
         <Text style={styles.footerText}>Already have an account? </Text>
-        <Link to={{pathname: '/signIn'}}>
+        <TouchableOpacity onPress={() => props.navigation.navigate('SignIn')}>
           <Text style={[styles.footerLink, styles.link, styles.strong]}>Sign In</Text>
-        </Link>g
+        </TouchableOpacity>
       </Footer>
     </Fragment>
   )

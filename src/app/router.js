@@ -51,7 +51,7 @@ const RootStack = createStackNavigator({
   UserProfileInvite: { screen: UserProfileInvite },
   FeedList: { screen: FeedList },
 }, {
-  initialRouteName: 'ThreadsList',
+  initialRouteName: 'SignUp',
   navigationOptions: {
     header: null
   }

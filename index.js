@@ -1,7 +1,6 @@
 /** @format */
 
 import {AppRegistry} from 'react-native'
-import {NativeRouter} from 'react-router-native'
 import React, {Component} from 'react'
 
 import App from './src/app/router'
@@ -13,9 +12,7 @@ import App from './src/app/router'
 class Root extends Component {
   render () {
     return (
-      <NativeRouter>
-        <App/>
-      </NativeRouter>
+      <App/>
     )
   }
 }
