@@ -2,6 +2,7 @@ import React from 'react'
 import {Animated} from 'react-native'
 
 import { FluidNavigator } from 'react-navigation-fluid-transitions'
+import NavigationService from '../util/navigationService'
 
 import {
   SignIn,
@@ -62,6 +63,8 @@ const RootStack = FluidNavigator({
 
 export default class App extends React.Component {
   render() {
-    return <RootStack />
+    return <RootStack ref={navigatorRef => {
+      NavigationService.setTopLevelNavigator(navigatorRef);
+    }} />
   }
 }
