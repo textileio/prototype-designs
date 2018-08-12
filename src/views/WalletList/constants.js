@@ -11,47 +11,47 @@ export default [
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 3,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 4,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 1,
+        id: 5,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 6,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 7,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 8,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 9,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 10,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 11,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 12,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 13,
         photo: require('./statics/photo4.png')
       },
     ]
@@ -60,55 +60,55 @@ export default [
     month: 'April',
     photos: [
       {
-        id: 1,
+        id: 14,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 15,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 16,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 17,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 1,
+        id: 18,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 19,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 20,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 21,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 22,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 23,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 24,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 25,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 26,
         photo: require('./statics/photo4.png')
       },
     ]
@@ -117,55 +117,55 @@ export default [
     month: 'August',
     photos: [
       {
-        id: 1,
+        id: 27,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 28,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 29,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 30,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 1,
+        id: 31,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 32,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 33,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 34,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 35,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 36,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 37,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 38,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 39,
         photo: require('./statics/photo4.png')
       },
     ]
@@ -174,55 +174,55 @@ export default [
     month: 'March',
     photos: [
       {
-        id: 1,
+        id: 40,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 41,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 42,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 43,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 1,
+        id: 44,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 45,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 46,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 47,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 48,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 49,
         photo: require('./statics/photo4.png')
       },
       {
-        id: 1,
+        id: 50,
         photo: require('./statics/photo1.png'),
       },
       {
-        id: 2,
+        id: 51,
         photo: require('./statics/photo2.png')
       },
       {
-        id: 4,
+        id: 52,
         photo: require('./statics/photo4.png')
       },
     ]
