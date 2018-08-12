@@ -7,7 +7,7 @@ import { Transition } from 'react-navigation-fluid-transitions'
 import styles, { gridStyles } from './statics/styles'
 
 const PhotoGrid = props => {
-  const { type, photos, navigation } = props
+  const { type, photos, navigation, onParentUnmount } = props
 
   return (
     <View style={[styles.photoList, gridStyles(photos)[type].container ]}>
@@ -17,7 +17,10 @@ const PhotoGrid = props => {
             <View key='selected-1' style={styles.photoSelected} />,
             <Image key='selected-2' style={styles.photoSelectedIcon} source={require('./statics/icon-ok.png')} />
           ]}
-          <TouchableOpacity onPress={() => navigation.navigate('PhotoDetail', { id: item.id, sharedProp: `photo-${item.id}` })}>
+          <TouchableOpacity onPress={() => {
+            //onParentUnmount()
+            navigation.navigate('PhotoDetail', { id: item.id, sharedProp: `photo-${item.id}` })
+          }}>
             <Transition shared={`photo-${item.id}`}>
               <ImageSc width={gridStyles(photos)[type].photo} source={item.photo} />
             </Transition>

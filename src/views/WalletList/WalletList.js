@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, Image } from 'react-native'
+import { Text, Image, Animated } from 'react-native'
 
 import Toolbar from '../../components/Toolbar'
 import BottomBar from '../../components/BottomBar'
@@ -15,8 +15,10 @@ const WalletList = props => {
   const drawer = false
   const alertDisplay = false
 
+  const { scaleAnim } = props
+
   return (
-    <View style={styles.container}>
+    <Animated.View style={[styles.container, { transform: [{ scale: scaleAnim }] }]}>
       <Toolbar
         style={styles.toolbar}
         left={<Image style={styles.toolbarIconUser} source={require('./statics/icon-photo1.png')} />}
@@ -28,7 +30,7 @@ const WalletList = props => {
       <PhotoGridList {...props} type={type} photos={list} />
       <BottomBar active='wallet' />
       { drawer && <BottomDrawerPhotos list={photoList} /> }
-    </View>
+    </Animated.View>
   )
 }
 
