@@ -9,7 +9,8 @@
     "lint": "esw src/**",
     "lint-watch": "esw -w --changed src/**",
     "lint-fix": "esw --fix",
-    "test": "jest"
+    "test": "jest",
+    "link": "react-native link"
   },
   "jest": {
     "preset": "react-native"
