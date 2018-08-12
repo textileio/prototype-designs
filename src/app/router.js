@@ -1,4 +1,5 @@
 import React from 'react'
+import {Animated} from 'react-native'
 
 import { FluidNavigator } from 'react-navigation-fluid-transitions'
 
@@ -51,10 +52,12 @@ const RootStack = FluidNavigator({
   UserProfileInvite: { screen: UserProfileInvite },
   FeedList: { screen: FeedList },
 }, {
+  duration: 1500,
+  timing: Animated.timing,
   initialRouteName: 'WalletList',
   navigationOptions: {
     header: null
-  }
+  },
 })
 
 export default class App extends React.Component {
