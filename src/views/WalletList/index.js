@@ -10,7 +10,7 @@ import PhotoGridList from './components/PhotoGridList/PhotoGridListContainer'
 import styles from './statics/styles'
 import list, { photoList } from './constants'
 
-const WalletList = () => {
+const WalletList = props => {
   const type = 'grid' // TODO: change this value to 'list' to display the other arrangement of photos
   const drawer = false
   const alertDisplay = false
@@ -25,7 +25,7 @@ const WalletList = () => {
         <Text style={styles.toolbarTitle}>Hello, Michael</Text>
       </Toolbar>
       <Alert display={alertDisplay} msg='The photo has been deleted' />
-      <PhotoGridList type={type} photos={list} />
+      <PhotoGridList {...props} type={type} photos={list} />
       <BottomBar active='wallet' />
       { drawer && <BottomDrawerPhotos list={photoList} /> }
     </View>

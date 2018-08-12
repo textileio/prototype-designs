@@ -1,12 +1,13 @@
 import React from 'react'
 import propTypes from 'prop-types'
-import { View, Image } from 'react-native'
+import { View, Image, TouchableOpacity } from 'react-native'
 import ImageSc from 'react-native-scalable-image'
 
 import styles, { gridStyles } from './statics/styles'
 
 const PhotoGrid = props => {
-  const { type, photos } = props
+  const { type, photos, history } = props
+  console.log(props)
 
   return (
     <View style={[styles.photoList, gridStyles(photos)[type].container ]}>
@@ -16,7 +17,9 @@ const PhotoGrid = props => {
             <View key='selected-1' style={styles.photoSelected} />,
             <Image key='selected-2' style={styles.photoSelectedIcon} source={require('./statics/icon-ok.png')} />
           ]}
-          <ImageSc width={gridStyles(photos)[type].photo} source={item.photo} />
+          <TouchableOpacity onPress={() => history.push('/photo')}>
+              <ImageSc width={gridStyles(photos)[type].photo} source={item.photo} />
+          </TouchableOpacity>
         </View>
       )}
     </View>
