@@ -2,6 +2,9 @@ import { StyleSheet } from 'react-native'
 import { BentonSansBold } from '../../../util/fonts'
 
 export default StyleSheet.create({
+  container: {
+    flex: 1
+  },
   onBoardingContainer: {
     paddingTop: 115,
     paddingHorizontal: 20,

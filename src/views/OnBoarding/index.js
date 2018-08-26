@@ -1,17 +1,19 @@
-import React, {Component, Fragment} from 'react'
-import {Text, Image, View} from 'react-native'
+import React, {Component} from 'react'
+import {Text, View} from 'react-native'
+import LottieView from 'lottie-react-native'
 
 import Footer from './Footer'
 import styles from './statics/styles'
 
-import { pages } from './constants'
+import { pages, animations } from './constants'
 
 export default class OnBoarding extends Component {
   constructor (props) {
     super(props)
 
     this.state = {
-      step: 0
+      step: 0,
+      anim: animations[0]
     }
   }
 
@@ -19,28 +21,40 @@ export default class OnBoarding extends Component {
       this.setState({
         step: this.state.step + 1
       })
+
+      this.animation.play()
+
+      setTimeout(() => {
+        this.setState({
+          anim: animations[1]
+        })
+      }, 3000)
     }
 
     render () {
-      const { step } = this.state
+      const { step, anim } = this.state
       const { onSubmit } = this.props
 
       return (
-        <Fragment>
+        <View style={styles.container}>
           <View style={styles.onBoardingContainer}>
-            {pages.map(page => (
-              <Fragment key={page.image}>
+            <LottieView 
+              style={{ height: 300, marginBottom: 24, marginLeft: -10 }}  
+              source={anim} 
+              loop={false}
+              ref={animation => { this.animation = animation }}
+            />   
+            {pages.map((page, i) => (
+              <View key={i}>
                 {page.order === step &&
-                  <Fragment>
-                    <View style={styles.imageContainer}>
-                      <Image source={page.image}/>
-                    </View>
+                  <View>
                     <View style={styles.titleContainer}>
                       <Text style={styles.title}>{page.title}</Text>
                     </View>
                     <Text style={styles.subtitle}>{page.subTitle}</Text>
-                  </Fragment>}
-              </Fragment>
+                  </View>
+                }
+              </View>
             ))}
           </View>
           <Footer
@@ -50,7 +64,7 @@ export default class OnBoarding extends Component {
             onSkip={onSubmit}
             onSubmit={onSubmit}
           />
-        </Fragment>
+        </View>
       )
     }
 }
