@@ -1,4 +1,4 @@
-import React  from 'react'
+import React from 'react'
 import { View, Text, Switch, ScrollView } from 'react-native'
 import ImageSc from 'react-native-scalable-image'
 

@@ -17,7 +17,7 @@ export default StyleSheet.create({
   headerText: {
     fontFamily: 'BentonSans',
     fontSize: 16,
-    lineHeight: 25,
+    lineHeight: 25
   },
   link: {
     ...BentonSansBold(),

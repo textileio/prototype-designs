@@ -12,7 +12,7 @@ export default StyleSheet.create({
     marginRight: 14
   },
   itemText: {
-    fontFamily: "BentonSans",
-    fontSize: 14,
+    fontFamily: 'BentonSans',
+    fontSize: 14
   }
 })

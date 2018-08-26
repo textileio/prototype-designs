@@ -4,7 +4,7 @@ export default [
     photos: [
       {
         id: 1,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 2,
@@ -16,11 +16,11 @@ export default [
       },
       {
         id: 4,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 5,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 6,
@@ -32,7 +32,7 @@ export default [
       },
       {
         id: 8,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 9,
@@ -44,7 +44,7 @@ export default [
       },
       {
         id: 11,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 12,
@@ -53,7 +53,7 @@ export default [
       {
         id: 13,
         photo: require('./statics/photo4.png')
-      },
+      }
     ]
   },
   {
@@ -61,7 +61,7 @@ export default [
     photos: [
       {
         id: 14,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 15,
@@ -73,11 +73,11 @@ export default [
       },
       {
         id: 17,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 18,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 19,
@@ -89,7 +89,7 @@ export default [
       },
       {
         id: 21,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 22,
@@ -101,7 +101,7 @@ export default [
       },
       {
         id: 24,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 25,
@@ -110,7 +110,7 @@ export default [
       {
         id: 26,
         photo: require('./statics/photo4.png')
-      },
+      }
     ]
   },
   {
@@ -118,7 +118,7 @@ export default [
     photos: [
       {
         id: 27,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 28,
@@ -130,11 +130,11 @@ export default [
       },
       {
         id: 30,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 31,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 32,
@@ -146,7 +146,7 @@ export default [
       },
       {
         id: 34,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 35,
@@ -158,7 +158,7 @@ export default [
       },
       {
         id: 37,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 38,
@@ -167,7 +167,7 @@ export default [
       {
         id: 39,
         photo: require('./statics/photo4.png')
-      },
+      }
     ]
   },
   {
@@ -175,7 +175,7 @@ export default [
     photos: [
       {
         id: 40,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 41,
@@ -187,11 +187,11 @@ export default [
       },
       {
         id: 43,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 44,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 45,
@@ -203,7 +203,7 @@ export default [
       },
       {
         id: 47,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 48,
@@ -215,7 +215,7 @@ export default [
       },
       {
         id: 50,
-        photo: require('./statics/photo1.png'),
+        photo: require('./statics/photo1.png')
       },
       {
         id: 51,
@@ -224,7 +224,7 @@ export default [
       {
         id: 52,
         photo: require('./statics/photo4.png')
-      },
+      }
     ]
   }
 ]

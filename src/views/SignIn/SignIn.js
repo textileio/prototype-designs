@@ -42,7 +42,7 @@ const SignIn = props => {
           </View>
         </View>
       </ScrollView>
-        <Alert display={displayAlert} bottom msg='A link to reset your password has been sent to your email.' />
+      <Alert display={displayAlert} bottom msg='A link to reset your password has been sent to your email.' />
       <Footer>
         <Text style={styles.footerText}>Don't have an account? </Text>
         <TouchableOpacity onPress={() => props.navigation.navigate('SignUp')}>

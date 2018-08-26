@@ -5,7 +5,7 @@ export default StyleSheet.create({
     fontFamily: 'BentonSans',
     fontSize: 12,
     color: '#D0021B',
-    paddingTop: 6,
+    paddingTop: 6
   },
   labelText: {
     position: 'absolute',

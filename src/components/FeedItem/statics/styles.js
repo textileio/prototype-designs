@@ -15,12 +15,12 @@ export default StyleSheet.create({
     marginLeft: 11
   },
   text: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 12,
     marginBottom: 5
   },
   timestamp: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 11,
     color: '#9B9B9B'
   },

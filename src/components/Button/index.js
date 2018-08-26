@@ -17,7 +17,7 @@ const Button = props => {
 
 Button.propTypes = {
   text: propTypes.string.isRequired,
-  onPress: propTypes.func.isRequired,
+  onPress: propTypes.func.isRequired
 }
 
 export default Button

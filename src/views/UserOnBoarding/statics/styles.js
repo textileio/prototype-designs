@@ -9,32 +9,32 @@ export default StyleSheet.create({
     marginBottom: 40
   },
   logoStep2: {
-    marginBottom: 26,
+    marginBottom: 26
   },
   contentContainer: {
     width: '100%',
     paddingHorizontal: 36
   },
   link: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 16,
     color: '#2625ff',
     textDecorationLine: 'underline'
   },
   title: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 20,
-    lineHeight: 25,
+    lineHeight: 25
   },
   subtitle: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 16,
     lineHeight: 27,
     textAlign: 'center',
     marginBottom: 25
   },
   strong: {
-    ...BentonSansBold(),
+    ...BentonSansBold()
   },
   uploadIcon: {
     marginBottom: 18

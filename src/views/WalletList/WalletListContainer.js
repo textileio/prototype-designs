@@ -17,14 +17,14 @@ class WalletListContainer extends React.Component {
 
     const scaleAnimValues = {
       toValue: 0.9,
-      duration: 1000,
+      duration: 1000
     }
 
     Animated.parallel([
       Animated.timing(
         scaleAnim,
         scaleAnimValues
-      ),
+      )
     ]).start()
   }
 

@@ -16,8 +16,8 @@ export default StyleSheet.create({
     marginLeft: 11
   },
   text: {
-    fontFamily: "BentonSans",
-    fontSize: 12,
+    fontFamily: 'BentonSans',
+    fontSize: 12
   },
   link: {
     ...BentonSansBold(),

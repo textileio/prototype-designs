@@ -51,20 +51,20 @@ const RootStack = FluidNavigator({
   OtherUserProfile: { screen: OtherUserProfile },
   UserProfile: { screen: UserProfile },
   UserProfileInvite: { screen: UserProfileInvite },
-  FeedList: { screen: FeedList },
+  FeedList: { screen: FeedList }
 }, {
   duration: 1500,
   timing: Animated.timing,
-  initialRouteName: 'WalletList',
+  initialRouteName: 'OnBoarding',
   navigationOptions: {
     header: null
-  },
+  }
 })
 
 export default class App extends React.Component {
-  render() {
+  render () {
     return <RootStack ref={navigatorRef => {
-      NavigationService.setTopLevelNavigator(navigatorRef);
+      NavigationService.setTopLevelNavigator(navigatorRef)
     }} />
   }
 }

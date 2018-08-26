@@ -5,7 +5,7 @@ export default StyleSheet.create({
   container: {
     marginTop: 20,
     backgroundColor: '#FAFCFE',
-    flex: 1,
+    flex: 1
   },
   contentContainer: {
     paddingHorizontal: 19,
@@ -16,7 +16,7 @@ export default StyleSheet.create({
     width: 40
   },
   toolbarIconsList: {
-    flexDirection: 'row',
+    flexDirection: 'row'
   },
   toolbarAddIcon: {
     width: 24,
@@ -26,17 +26,17 @@ export default StyleSheet.create({
   toolbarDownloadIcon: {
     width: 22,
     height: 21,
-     marginLeft: 35
+    marginLeft: 35
   },
   toolbarShareIcon: {
     width: 18,
     height: 19,
-     marginLeft: 35
+    marginLeft: 35
   },
   toolbarRemoveIcon: {
     width: 14,
     height: 18,
-     marginLeft: 35
+    marginLeft: 35
   },
   photoDetails: {
     flexDirection: 'row',
@@ -44,7 +44,7 @@ export default StyleSheet.create({
     paddingHorizontal: 18,
     height: 50,
     borderBottomWidth: 1,
-    borderColor: '#ECEDEE',
+    borderColor: '#ECEDEE'
   },
   detailItem: {
     flexDirection: 'row'
@@ -54,7 +54,7 @@ export default StyleSheet.create({
   },
   iconLocation: {
     width: 13,
-    height: 17,
+    height: 17
   },
   iconInfo: {
     width: 18,
@@ -62,12 +62,12 @@ export default StyleSheet.create({
   },
   iconCalendar: {
     width: 16,
-    height: 16,
+    height: 16
   },
   threadsTitle: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 14,
-    color: "#9b9b9b",
+    color: '#9b9b9b',
     paddingBottom: 16
   }
 })

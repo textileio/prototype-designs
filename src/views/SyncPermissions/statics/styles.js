@@ -4,7 +4,7 @@ import { BentonSansBold } from '../../../util/fonts'
 export default StyleSheet.create({
   container: {
     marginTop: 20,
-    flex: 1,
+    flex: 1
   },
   header: {
     alignItems: 'center',
@@ -12,7 +12,7 @@ export default StyleSheet.create({
     paddingBottom: 51
   },
   title: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 20,
     lineHeight: 30,
     textAlign: 'center',
@@ -35,20 +35,20 @@ export default StyleSheet.create({
   },
   itemTitle: {
     ...BentonSansBold(),
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 16,
-    lineHeight: 27,
+    lineHeight: 27
   },
   itemDescription: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 16,
     lineHeight: 27,
-    color: "#4a4a4a",
+    color: '#4a4a4a',
     marginRight: 6
   },
   itemTexts: {
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   footer: {
     position: 'absolute',

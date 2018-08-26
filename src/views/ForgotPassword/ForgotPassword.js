@@ -25,12 +25,12 @@ const ForgotPassword = props => {
             label="Email"
             onChangeText={value => onChange({ name: 'email', value })}
           />
-        <Button
-          style={styles.button}
-          text="Reset password"
-          disabled={!email}
-          onPress={() => history.push('/welcome')}
-        />
+          <Button
+            style={styles.button}
+            text="Reset password"
+            disabled={!email}
+            onPress={() => history.push('/welcome')}
+          />
         </View>
       </ScrollView>
       <Footer>

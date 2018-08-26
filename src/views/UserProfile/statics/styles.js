@@ -63,7 +63,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingTop: 25,
+    paddingTop: 25
   },
   serversText: {
     color: '#4A4A4A'

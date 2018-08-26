@@ -2,16 +2,16 @@ import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
   withDivider: {
-    borderStyle: "solid",
+    borderStyle: 'solid',
     borderBottomWidth: 1,
-    borderColor: "#e1e1e1",
+    borderColor: '#e1e1e1'
   },
   comment: {
     flexDirection: 'row',
     marginRight: 12,
     paddingBottom: 23,
     paddingTop: 15,
-    width: '100%',
+    width: '100%'
   },
   subComment: {
     maxWidth: '70%'
@@ -25,27 +25,27 @@ export default StyleSheet.create({
     flexGrow: 1
   },
   commentDate: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 12,
-    color: "#9b9b9b",
+    color: '#9b9b9b',
     textAlign: 'right',
     maxWidth: 50,
     paddingRight: 12
   },
   commentUser: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 14,
     marginBottom: 5
   },
   commentText: {
-    fontFamily: "BentonSans",
+    fontFamily: 'BentonSans',
     fontSize: 12,
     lineHeight: 16,
-    color: "#4a4a4a",
+    color: '#4a4a4a',
     marginBottom: 14
   },
   commentIconLabel: {
-    color: "#4a4a4a",
+    color: '#4a4a4a',
     marginLeft: 6
   }
 })
