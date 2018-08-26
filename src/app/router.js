@@ -55,7 +55,7 @@ const RootStack = FluidNavigator({
 }, {
   duration: 1500,
   timing: Animated.timing,
-  initialRouteName: 'OnBoarding',
+  initialRouteName: 'ThreadsList',
   navigationOptions: {
     header: null
   }

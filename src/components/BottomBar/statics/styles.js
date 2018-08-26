@@ -7,14 +7,14 @@ export default StyleSheet.create({
     borderTopWidth: 1,
     backgroundColor: 'white',
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-around',
     alignItems: 'center'
   },
   bottomBarIcon: {
     height: 24,
     width: 24,
-    marginHorizontal: 50,
-    marginVertical: 14
+    paddingHorizontal: 50,
+    paddingVertical: 14
   },
   bottomBarIconActive: {
     borderBottomColor: '#2625FF',
