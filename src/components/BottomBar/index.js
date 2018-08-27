@@ -41,9 +41,9 @@ class BottomBarContainer extends React.Component {
       <View style={styles.bottomBar}>
         { Object.keys(icons).map((key, i) => (
           <TouchableOpacity key={i} onPress={() => this.onPress(key)}>
-            <View style={active === key && styles.bottomBarIconActive}>
+            <View style={[active === key && styles.bottomBarIconActive, styles.bottomBarIcon]}>
               <LottieView 
-                style={{ width: 40, height: 50 }} 
+                style={{ width: 30, height: 30 }} 
                 source={icons[key].animation} 
                 loop={false} 
                 ref={animation => {
