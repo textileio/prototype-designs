@@ -2,4 +2,4 @@
 
 Design concepts for the [Textile Photos](https://www.textile.photos/) mobile application. 
 
-To see the final implementation, see [textileio/textile-photos](http://github.com/textileio/textile-mobile/)
+See the final implementation here, [textileio/textile-photos](http://github.com/textileio/textile-mobile/)
